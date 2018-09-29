@@ -1,10 +1,11 @@
-import controllers.MainMenuController;
+import controllers.MainMenu.MainMenuController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
+import tools.ViewConstants;
 
 import java.awt.*;
 
@@ -14,20 +15,19 @@ import java.awt.*;
 public class Launcher extends Application {
     private String version;
     private String author;
-    private double screenwidth;
-    private double screenheight;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         version = "1.0.0";
         author = "Niko Van Hoeck";
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        screenwidth= screenSize.getWidth();
-        screenheight = screenSize.getHeight();
+        ViewConstants.screenwidth = screenSize.getWidth();
+        ViewConstants.screenheight = screenSize.getHeight();
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("views/mainmenu.fxml"));
         Parent root = fxmlLoader.load();
         MainMenuController controller = fxmlLoader.getController();
 
-        Scene scene  = new Scene(root,screenwidth,screenheight);
+        Scene scene  = new Scene(root,ViewConstants.screenwidth, ViewConstants.screenheight);
         primaryStage.setScene(scene);
         primaryStage.setFullScreen(true);
         primaryStage.setFullScreenExitHint("");
