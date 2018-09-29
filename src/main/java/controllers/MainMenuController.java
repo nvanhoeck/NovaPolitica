@@ -143,7 +143,7 @@ public class MainMenuController{
     }
 
     private void setupBgImage() {
-        view.setBackground(new Background(new BackgroundImage(new Image("file:"+resourcesPath+"gui\\backgroundImages\\bgMain.jpg"), BackgroundRepeat.NO_REPEAT,BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT)));
+        view.setBackground(new Background(new BackgroundImage(new Image("file:"+resourcesPath+"\\gui\\backgroundImages\\bgMain.jpg"), BackgroundRepeat.NO_REPEAT,BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT)));
     }
 
     /**
