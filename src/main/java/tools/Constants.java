@@ -7,6 +7,7 @@ import java.net.URISyntaxException;
 
 public class Constants {
     public static String RESOURCESPATH;
+    public static String COUNTRYDATAPATH = System.getProperty("user.dir") + "/src/main/resources/data/gameData/static/countries/";
 
     static {
         try {

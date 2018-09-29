@@ -7,7 +7,9 @@ import bl.domain.parliaments.FormationInterface;
 import bl.domain.parliaments.Government;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import dal.jsonMappers.InterfaceSerializer;
+import tools.Constants;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,8 +23,8 @@ public class InitDal {
 
     public Map<String, Country> initCountries() throws FileNotFoundException {
         Map<String, Country> countries = new HashMap<>();
-        String PATH = System.getProperty("user.dir") + "/src/main/resources/data/gameData/static/countries/";
-        File directory = new File(PATH);
+
+        File directory = new File(Constants.COUNTRYDATAPATH);
         File[] files = directory.listFiles();
         assert files != null;
         for (File file : files) {
@@ -31,7 +33,7 @@ public class InitDal {
             builder.registerTypeAdapter(FormationInterface.class, new InterfaceSerializer<>(Government.class));
             builder.registerTypeAdapter(MonarchType.class, new InterfaceSerializer<>(Monarch.class));
             Gson gson = builder.create();
-            FileReader reader = new FileReader(PATH + countryName);
+            FileReader reader = new FileReader(Constants.COUNTRYDATAPATH + countryName);
             Country c = gson.fromJson(reader, Country.class);
             countries.put(c.getName(), c);
         }
