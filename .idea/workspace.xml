@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="[Master]: BG Image Fix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuElementsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/ViewConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuElementsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuElementsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/views/mainmenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/views/mainmenu.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -91,7 +93,7 @@
           <entry key="class" value="2" />
           <entry key="css" value="1" />
           <entry key="fxml" value="2" />
-          <entry key="java" value="55" />
+          <entry key="java" value="60" />
           <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
@@ -100,19 +102,19 @@
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="60" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="631" />
+          <entry key="java" value="772" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="631" />
+          <entry key="JAVA" value="772" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
@@ -123,54 +125,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tools/Constants.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="178">
+              <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#CountrySelectionController#0" />
+                <element signature="docComment;method#showSelectionAnimation#0;class#CountrySelectionController#0" />
+                <element signature="method#showSelectionAnimation#0;class#CountrySelectionController#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-              <folding>
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuElementsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <element signature="method#MainMenuElementsBuilder#0;class#MainMenuElementsBuilder#0" />
-                <element signature="method#setupMainMenuBtns#0;class#MainMenuElementsBuilder#0" />
-                <element signature="e#1302#1527#0" />
-                <element signature="e#1581#1806#0" />
-                <element signature="method#setupMainMenu#0;class#MainMenuElementsBuilder#0" />
-                <element signature="method#setupBigLogoImage#0;class#MainMenuElementsBuilder#0" />
-                <element signature="method#setupBgImage#0;class#MainMenuElementsBuilder#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tools/ViewConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -260,9 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/views/mainmenu.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/keysControllers/OverallKeyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/Presenters/MainMenuPresenter.java" />
@@ -304,13 +266,16 @@
         <option value="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PoliticalParty.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ShapeDrawer.java" />
         <option value="$PROJECT_DIR$/src/main/java/bl/domain/regions/Religion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ViewConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/MainMenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuElementsBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java" />
       </list>
     </option>
   </component>
@@ -442,7 +407,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="MainMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="countryselection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="mainmenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -471,7 +445,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538236786524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538237514912" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
@@ -758,7 +732,7 @@
       <workItem from="1536095824951" duration="561000" />
       <workItem from="1536418901166" duration="5000" />
       <workItem from="1538219038356" duration="1587000" />
-      <workItem from="1538235640667" duration="1076000" />
+      <workItem from="1538235640667" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="[Master]: Base Game">
       <created>1538220191983</created>
@@ -810,7 +784,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199131000" />
+    <option name="totallyTimeSpent" value="199893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +799,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2965204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2965204" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -834,7 +808,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34254992" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34254992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39215687" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -846,7 +820,7 @@
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.33333334" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32718894" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.13056836" />
       <window_info anchor="bottom" id="Statistic" order="15" />
       <window_info anchor="bottom" id="JProfiler" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
@@ -859,8 +833,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24962178" />
       <window_info anchor="right" id="Maven Projects" order="11" weight="0.32980332" />
     </layout>
     <layout-to-restore>
@@ -1142,24 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="285" column="5" lean-forward="true" selection-start-line="285" selection-start-column="5" selection-end-line="285" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#CountrySelectionController#0" />
-            <element signature="method#setupCountryFlags#0;class#CountrySelectionController#0" />
-            <element signature="method#setup1stCenterDiamond#0;class#CountrySelectionController#0" />
-            <element signature="method#setup2ndCenterDiamond#0;class#CountrySelectionController#0" />
-            <element signature="method#setupContinentIcon#0;class#CountrySelectionController#0" />
-            <element signature="method#loadingGameData#0;class#CountrySelectionController#0" />
-            <element signature="docComment;method#showSelectionAnimation#0;class#CountrySelectionController#0" />
-            <element signature="method#showSelectionAnimation#0;class#CountrySelectionController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dal/InitDal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1202,13 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ViewConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1218,7 +1167,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="238">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1226,15 +1175,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuElementsBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuElementsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="146">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
           <folding>
             <element signature="method#MainMenuElementsBuilder#0;class#MainMenuElementsBuilder#0" />
             <element signature="method#setupMainMenuBtns#0;class#MainMenuElementsBuilder#0" />
-            <element signature="e#1302#1527#0" />
-            <element signature="e#1581#1806#0" />
             <element signature="method#setupMainMenu#0;class#MainMenuElementsBuilder#0" />
             <element signature="method#setupBigLogoImage#0;class#MainMenuElementsBuilder#0" />
             <element signature="method#setupBgImage#0;class#MainMenuElementsBuilder#0" />
@@ -1242,13 +1189,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainMenu/MainMenuController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ViewConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1639">
+          <caret line="171" column="169" selection-start-line="171" selection-start-column="169" selection-end-line="171" selection-end-column="169" />
           <folding>
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#14428#14429#0" expanded="true" />
+            <element signature="e#14462#14463#0" expanded="true" />
+            <element signature="e#14506#14507#0" expanded="true" />
+            <element signature="e#14543#14544#0" expanded="true" />
+            <element signature="e#14580#14581#0" expanded="true" />
+            <element signature="e#14614#14615#0" expanded="true" />
+            <element signature="e#14664#14665#0" expanded="true" />
+            <element signature="e#14710#14711#0" expanded="true" />
+            <element signature="e#14760#14761#0" expanded="true" />
+            <element signature="e#14806#14807#0" expanded="true" />
+            <element signature="e#14854#14855#0" expanded="true" />
+            <element signature="e#14898#14899#0" expanded="true" />
+            <element signature="e#14948#14949#0" expanded="true" />
+            <element signature="e#14994#14995#0" expanded="true" />
+            <element signature="e#15044#15045#0" expanded="true" />
+            <element signature="e#15090#15091#0" expanded="true" />
+            <element signature="e#15138#15139#0" expanded="true" />
+            <element signature="e#15182#15183#0" expanded="true" />
+            <element signature="e#15229#15230#0" expanded="true" />
+            <element signature="e#15257#15258#0" expanded="true" />
+            <element signature="e#15294#15295#0" expanded="true" />
+            <element signature="e#15328#15329#0" expanded="true" />
+            <element signature="e#15365#15366#0" expanded="true" />
+            <element signature="e#15399#15400#0" expanded="true" />
+            <element signature="e#15428#15429#0" expanded="true" />
+            <element signature="e#15455#15456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CountrySelectionController#0" />
+            <element signature="docComment;method#showSelectionAnimation#0;class#CountrySelectionController#0" />
+            <element signature="method#showSelectionAnimation#0;class#CountrySelectionController#0" />
           </folding>
         </state>
       </provider>

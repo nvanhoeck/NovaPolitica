@@ -1,6 +1,6 @@
 package tools;
 
-import controllers.MainMenu.MainMenuController;
+import controllers.mainmenu.MainMenuController;
 
 import java.io.File;
 import java.net.URISyntaxException;

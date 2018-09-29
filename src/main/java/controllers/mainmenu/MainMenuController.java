@@ -1,33 +1,21 @@
-package controllers.MainMenu;
+package controllers.mainmenu;
 
 
-import controllers.CountrySelectionController;
+import controllers.countryselection.CountrySelectionController;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.geometry.Insets;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.input.KeyCombination;
-import javafx.scene.input.MouseEvent;
-import javafx.stage.Stage;
-import sun.misc.Launcher;
-import tools.Constants;
-import tools.OverallKeyController;
-import javafx.fxml.FXML;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.layout.*;
-import tools.NodePlacer;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+import tools.OverallKeyController;
 
-import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
-import java.util.LinkedList;
-import java.util.List;
 
 
 /**
