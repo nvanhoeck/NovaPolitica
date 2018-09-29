@@ -3,6 +3,7 @@ package dal.dataReaders.dataCSVCountriesReadingStrategies;
 import bl.domain.DurationInWeeks;
 import bl.domain.countries.*;
 import dal.exceptions.ReadCountryException;
+import tools.dataconstants.GovernmentFormsConstants;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -18,13 +19,13 @@ public class ReadCountryGovernmentForms implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String,Country> readCSV(HashMap<String,Country> countries, String [] data) throws ReadCountryException {
-        if(countries.containsKey(data[data.length-1])) {
-            Country c = countries.get(data[data.length - 1]);
+        if(countries.containsKey(data[GovernmentFormsConstants.country])) {
+            Country c = countries.get(data[GovernmentFormsConstants.country]);
             DemocraticValue democraticValue = c.getGovernmentForm().getDemocraticValue();
             HeadOfStateForm headOfStateForm = c.getGovernmentForm().getHeadOfStateForm();
             StatePhilosophy statePhilosophy = c.getGovernmentForm().getStatePhilosophy();
             DurationInWeeks durationInWeeksFederal;
-            switch (Integer.parseInt(data[2])) {
+            switch (Integer.parseInt(data[GovernmentFormsConstants.federalruletimeinyears])) {
                 case 1:
                     durationInWeeksFederal = DurationInWeeks.ONE_YEAR;
                     break;
@@ -48,7 +49,7 @@ public class ReadCountryGovernmentForms implements ReadCountryDataInterface {
 
             }
             DurationInWeeks durationInWeeksRegional;
-            switch (Integer.parseInt(data[4])) {
+            switch (Integer.parseInt(data[GovernmentFormsConstants.regionalruletimeinyears])) {
                 case 1:
                     durationInWeeksRegional = DurationInWeeks.ONE_YEAR;
                     break;
@@ -76,12 +77,12 @@ public class ReadCountryGovernmentForms implements ReadCountryDataInterface {
 
 
             try {
-                c.setGovernmentForm(new GovernmentForm(Integer.parseInt(data[0]), data[1], durationInWeeksFederal, durationInWeeksRegional, federalDate.parse(data[3]), federalDate.parse(data[5]), democraticValue, headOfStateForm, statePhilosophy));
+                c.setGovernmentForm(new GovernmentForm(Integer.parseInt(data[GovernmentFormsConstants.id]), data[GovernmentFormsConstants.name], durationInWeeksFederal, durationInWeeksRegional, federalDate.parse(data[GovernmentFormsConstants.datefederalelections]), federalDate.parse(data[GovernmentFormsConstants.dateregionalelections]), democraticValue, headOfStateForm, statePhilosophy));
             } catch (ParseException e) {
                 e.printStackTrace();
             }
         }else {
-            throw new ReadCountryException("Country " + data[data.length-1] + " could not be found for Government Forms!");
+            throw new ReadCountryException("Country " + data[GovernmentFormsConstants.country] + " could not be found for Government Forms!");
         }
         return countries;
     }

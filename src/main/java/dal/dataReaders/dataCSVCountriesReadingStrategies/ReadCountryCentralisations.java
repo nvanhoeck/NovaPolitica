@@ -3,6 +3,7 @@ package dal.dataReaders.dataCSVCountriesReadingStrategies;
 import bl.domain.countries.Centralisation;
 import bl.domain.countries.Country;
 import dal.exceptions.ReadCountryException;
+import tools.dataconstants.CentralisationConstants;
 
 import java.util.HashMap;
 
@@ -15,10 +16,10 @@ public class ReadCountryCentralisations implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String,Country> readCSV( HashMap<String,Country> countries,String [] data) throws ReadCountryException {
-        if(countries.containsKey(data[data.length-1])) {
-            countries.get(data[data.length - 1]).getStateForm().setCentralisation(new Centralisation(Integer.parseInt(data[0]), data[1], Double.parseDouble(data[2])));
+        if(countries.containsKey(data[CentralisationConstants.country])) {
+            countries.get(data[CentralisationConstants.country]).getStateForm().setCentralisation(new Centralisation(Integer.parseInt(data[CentralisationConstants.id]), data[CentralisationConstants.name], Double.parseDouble(data[CentralisationConstants.score])));
         }else {
-            throw new ReadCountryException("Country " +data[data.length-1] + " could not be found for Centralisations!");
+            throw new ReadCountryException("Country " +data[CentralisationConstants.country] + " could not be found for Centralisations!");
         }
         return countries;
     }

@@ -134,7 +134,7 @@ public class CSVCountriesReader implements CSVReaderStrategy {
                             countries = dataReaders.get(i).readCSV(countries, data);
                         }catch (Exception e) {
                             //throw new Exception(e);
-                            //System.out.println("ERROR! " + e.getMessage());
+                            // System.err.println("ERROR! " + e.getMessage());
                             e.printStackTrace();
                         }
                     }

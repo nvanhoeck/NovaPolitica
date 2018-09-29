@@ -8,6 +8,7 @@ import dal.dataWriters.JsonCountriesWriter;
 import dal.dataWriters.JsonDALWriter;
 import dal.dataWriters.JsonGeneralDataWriter;
 import org.apache.log4j.Logger;
+import tools.Constants;
 
 public class LoadDataMain {
     public static void main(String[] args) {
@@ -22,13 +23,13 @@ public class LoadDataMain {
         DALTransferService dalTransferService = new DALTransferService(csvReader,jsonWriter);
 
         try {
-            dalTransferService.transferCountries(System.getProperty("user.dir") + "\\src\\main\\resources\\data\\inputData\\static\\countries\\");
+            dalTransferService.transferCountries(Constants.COUNTRYINPUTDATAPATH);
         }
         catch (Exception e){
             System.out.println(e.getMessage());
           logger.error(e.getMessage());
         }
-        dalTransferService.transferGeneralData(System.getProperty("user.dir") + "\\src\\main\\resources\\data\\inputData\\static\\generaldata\\");
+        dalTransferService.transferGeneralData(Constants.GENERALDATAPATH);
 
     }
 }

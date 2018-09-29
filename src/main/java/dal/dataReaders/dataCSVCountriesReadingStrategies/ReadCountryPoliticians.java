@@ -11,6 +11,7 @@ import bl.domain.regions.Region;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadPoliticalPartyException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.PoliticiansConstants;
 
 import java.util.HashMap;
 
@@ -18,44 +19,44 @@ public class ReadCountryPoliticians implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws Exception {
-        if(countries.containsKey(data[13])) {
-                Country c = countries.get(data[13]);
-                if (data[14].equals("NONE")) {
+        if(data.length > 1 && countries.containsKey(data[PoliticiansConstants.country])) {
+                Country c = countries.get(data[PoliticiansConstants.country]);
+                if (data[PoliticiansConstants.region].equals("NONE")) {
                     Government g = (Government) c.getParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-                    if(g.getParties().containsKey(data[2])) {
-                        PoliticalParty politicalParty = g.getParties().get(data[2]);
+                    if(g.getParties().containsKey(data[PoliticiansConstants.party])) {
+                        PoliticalParty politicalParty = g.getParties().get(data[PoliticiansConstants.party]);
                         Gender gender;
-                        if (data[4].equals("F")) {
+                        if (data[PoliticiansConstants.gender].equals("F")) {
                             gender = Gender.FEMALE;
                         } else {
                             gender = Gender.MALE;
                         }
-                        politicalParty.getPartyMembers().put(Integer.parseInt(data[0]), new Politician(Integer.parseInt(data[0]), Long.parseLong(data[3]), gender, data[1], Double.parseDouble(data[5]), Double.parseDouble(data[6]), Double.parseDouble(data[7])));
+                        politicalParty.getPartyMembers().put(Integer.parseInt(data[PoliticiansConstants.id]), new Politician(Integer.parseInt(data[PoliticiansConstants.id]), Long.parseLong(data[PoliticiansConstants.salary]), gender, data[PoliticiansConstants.name], Double.parseDouble(data[PoliticiansConstants.popularity]), Double.parseDouble(data[PoliticiansConstants.trust]), Double.parseDouble(data[PoliticiansConstants.happiness])));
                     }else {
-                        throw new ReadPoliticalPartyException("Party " + data[2] + " could not be found in politicians!");
+                        throw new ReadPoliticalPartyException("Party " + data[PoliticiansConstants.party] + " could not be found in politicians!");
                     }
                 } else {
-                    if(c.getRegions().containsKey(data[14])){
-                        Region r = c.getRegions().get(data[14]);
+                    if(c.getRegions().containsKey(data[PoliticiansConstants.region])){
+                        Region r = c.getRegions().get(data[PoliticiansConstants.region]);
                         Government g = (Government) r.getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-                            if (g.getParties().containsKey(data[2])) {
-                                PoliticalParty politicalParty = g.getParties().get(data[2]);
+                            if (g.getParties().containsKey(data[PoliticiansConstants.party])) {
+                                PoliticalParty politicalParty = g.getParties().get(data[PoliticiansConstants.party]);
                                 Gender gender;
-                                if (data[4].equals("F")) {
+                                if (data[PoliticiansConstants.gender].equals("F")) {
                                     gender = Gender.FEMALE;
                                 } else {
                                     gender = Gender.MALE;
                                 }
-                                politicalParty.getPartyMembers().put(Integer.parseInt(data[0]), new Politician(Integer.parseInt(data[0]), Long.parseLong(data[3]), gender, data[1], Double.parseDouble(data[5]), Double.parseDouble(data[6]), Double.parseDouble(data[7])));
+                                politicalParty.getPartyMembers().put(Integer.parseInt(data[PoliticiansConstants.id]), new Politician(Integer.parseInt(data[PoliticiansConstants.id]), Long.parseLong(data[PoliticiansConstants.salary]), gender, data[PoliticiansConstants.name], Double.parseDouble(data[PoliticiansConstants.popularity]), Double.parseDouble(data[PoliticiansConstants.trust]), Double.parseDouble(data[PoliticiansConstants.happiness])));
                             } else {
-                                throw new ReadPoliticalPartyException("Party " + data[2] + " could not be found in politicians!");
+                                throw new ReadPoliticalPartyException("Party " + data[PoliticiansConstants.party] + " could not be found in politicians!");
                             }
                     } else {
-                        throw new ReadRegionException("Region " + data[14] + " could not be found in politicians!");
+                        throw new ReadRegionException("Region " + data[PoliticiansConstants.region] + " could not be found in politicians!");
                     }
             }
-        }else {
-                throw new ReadCountryException("Country " + data[13] + " could not be found in politicians!");
+        }else if (data.length > 1){
+                throw new ReadCountryException("Country " + data[PoliticiansConstants.country] + " could not be found in politicians!");
         }
         return countries;
     }

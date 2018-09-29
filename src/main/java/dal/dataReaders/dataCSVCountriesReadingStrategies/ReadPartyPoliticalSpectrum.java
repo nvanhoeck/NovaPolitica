@@ -9,6 +9,7 @@ import bl.domain.regions.Region;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadPoliticalPartyException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.PoliticalSpectrumConstants;
 
 import java.util.HashMap;
 
@@ -16,39 +17,39 @@ public class ReadPartyPoliticalSpectrum implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws Exception {
-        if(countries.containsKey(data[2])){
-            Country country = countries.get(data[2]);
-            if(!data[3].equals("NONE")) {
-                if(Integer.parseInt(data[4])==0) {
+        if(countries.containsKey(data[PoliticalSpectrumConstants.country])){
+            Country country = countries.get(data[PoliticalSpectrumConstants.country]);
+            if(!data[PoliticalSpectrumConstants.region].equals("NONE")) {
+                if(Integer.parseInt(data[PoliticalSpectrumConstants.populationideology])==0) {
                     Government g = (Government) country.getParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-                    if(g.getParties().containsKey(data[1])) {
-                        PoliticalParty party = g.getParties().get(data[1]);
-                        party.setPoliticalSpectrum(new PoliticalSpectrum(Integer.parseInt(data[0])));
+                    if(g.getParties().containsKey(data[PoliticalSpectrumConstants.partyorideology])) {
+                        PoliticalParty party = g.getParties().get(data[PoliticalSpectrumConstants.partyorideology]);
+                        party.setPoliticalSpectrum(new PoliticalSpectrum(Integer.parseInt(data[PoliticalSpectrumConstants.id])));
                     }
                 }
-                if(country.getRegions().containsKey(data[3])){
-                    Region r = country.getRegions().get(data[3]);
+                if(country.getRegions().containsKey(data[PoliticalSpectrumConstants.region])){
+                    Region r = country.getRegions().get(data[PoliticalSpectrumConstants.region]);
                     Government gr = (Government) r.getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-                    if (gr.getParties().containsKey(data[1])) {
-                        PoliticalParty party = gr.getParties().get(data[1]);
-                            party.setPoliticalSpectrum(new PoliticalSpectrum(Integer.parseInt(data[0])));
+                    if (gr.getParties().containsKey(data[PoliticalSpectrumConstants.partyorideology])) {
+                        PoliticalParty party = gr.getParties().get(data[PoliticalSpectrumConstants.partyorideology]);
+                            party.setPoliticalSpectrum(new PoliticalSpectrum(Integer.parseInt(data[PoliticalSpectrumConstants.id])));
                     }
                 }else
-                    throw new ReadRegionException("Region " + data[3] + " has not been found for political spectrum!");
+                    throw new ReadRegionException("Region " + data[PoliticalSpectrumConstants.region] + " has not been found for political spectrum!");
             }
             else {
-                if(Integer.parseInt(data[4])==0) {
+                if(Integer.parseInt(data[PoliticalSpectrumConstants.populationideology])==0) {
                     Government g = (Government) country.getParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-                    if(g.getParties().containsKey(data[1])) {
-                        PoliticalParty party = g.getParties().get(data[1]);
-                        party.setPoliticalSpectrum(new PoliticalSpectrum(Integer.parseInt(data[0])));
+                    if(g.getParties().containsKey(data[PoliticalSpectrumConstants.partyorideology])) {
+                        PoliticalParty party = g.getParties().get(data[PoliticalSpectrumConstants.partyorideology]);
+                        party.setPoliticalSpectrum(new PoliticalSpectrum(Integer.parseInt(data[PoliticalSpectrumConstants.id])));
                     }else {
-                        throw new ReadPoliticalPartyException("Party " + data[1] + " has not been found for political spectrum!");
+                        throw new ReadPoliticalPartyException("Party " + data[PoliticalSpectrumConstants.partyorideology] + " has not been found for political spectrum!");
                     }
                 }
             }
         }else {
-            throw new ReadCountryException("Country " + data[2] + " has not been found for political spectrum!");
+            throw new ReadCountryException("Country " + data[PoliticalSpectrumConstants.country] + " has not been found for political spectrum!");
         }
         return countries;
     }

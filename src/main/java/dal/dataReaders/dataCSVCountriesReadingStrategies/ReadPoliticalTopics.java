@@ -2,6 +2,8 @@ package dal.dataReaders.dataCSVCountriesReadingStrategies;
 
 import bl.domain.countries.Country;
 import bl.domain.ideologies.PoliticalTopic;
+import tools.Constants;
+import tools.dataconstants.PoliticalTopicsConstants;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,7 +22,7 @@ public class ReadPoliticalTopics implements PartyDataPoliticalTopicListener {
     @Override
     public void setPoliticalTopics() {
         try {
-            File file = new File(System.getProperty("user.dir") + "/src/main/resources/data/inputData/static/countries/politicaltopics.csv");
+            File file = new File(Constants.COUNTRYINPUTDATAPATH + "politicaltopics.csv");
             System.out.println("Loading political topics from " + file.getAbsolutePath());
             FileReader reader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(reader);
@@ -31,11 +33,11 @@ public class ReadPoliticalTopics implements PartyDataPoliticalTopicListener {
             while (line !=null) {
                 if (counter!=0) {
                     String data[] = line.split(";");
-                    if(politicalTopics.containsKey(Integer.parseInt(data[0]))) {
-                        politicalTopics.put(Integer.parseInt(data[0]), new PoliticalTopic(Integer.parseInt(data[0]), data[1]/*TODO Genereert overflow error! ,politicalTopics.get(Integer.parseInt(data[2]))*/));
+                    if(politicalTopics.containsKey(Integer.parseInt(data[PoliticalTopicsConstants.ID]))) {
+                        politicalTopics.put(Integer.parseInt(data[PoliticalTopicsConstants.ID]), new PoliticalTopic(Integer.parseInt(data[PoliticalTopicsConstants.ID]), data[PoliticalTopicsConstants.NAME]/*TODO Genereert overflow error! ,politicalTopics.get(Integer.parseInt(data[2]))*/));
                         //TODO check Andere methode?Geeft overflow error! politicalTopics.get(Integer.parseInt(data[2])).setOpposition(politicalTopics.get(Integer.parseInt(data[0])));
                     }else {
-                        politicalTopics.put(Integer.parseInt(data[0]), new PoliticalTopic(Integer.parseInt(data[0]), data[1]));
+                        politicalTopics.put(Integer.parseInt(data[PoliticalTopicsConstants.ID]), new PoliticalTopic(Integer.parseInt(data[PoliticalTopicsConstants.ID]), data[PoliticalTopicsConstants.NAME]));
                     }
                 }
                 line = bufferedReader.readLine();

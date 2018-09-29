@@ -8,6 +8,7 @@ import bl.domain.regions.Region;
 import dal.exceptions.ReadPartyException;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.PartiesConstants;
 
 import java.util.HashMap;
 
@@ -16,25 +17,25 @@ public class ReadCountryParties implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws Exception {
-        Country c = countries.get(data[10]);
+        Country c = countries.get(data[PartiesConstants.country]);
         if (c == null) {
             throw new ReadCountryException("Country could not be found");
         }else {
-            if(data[11].equals("NONE")) {
+            if(data[PartiesConstants.region].equals("NONE")) {
              Government g = (Government) c.getParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-             if(!g.getParties().containsKey(data[0])){
-                 g.getParties().put(data[2],new PoliticalParty(Integer.parseInt(data[0]),data[1],data[2],data[3],data[4],Long.parseLong(data[5]),Double.parseDouble(data[6]),Double.parseDouble(data[7]),Integer.parseInt(data[8]),Integer.parseInt(data[9])));
+             if(!g.getParties().containsKey(data[PartiesConstants.id])){
+                 g.getParties().put(data[PartiesConstants.shortname],new PoliticalParty(Integer.parseInt(data[PartiesConstants.id]),data[PartiesConstants.name],data[PartiesConstants.shortname],data[PartiesConstants.primaryColor],data[PartiesConstants.secundaryColor],Long.parseLong(data[PartiesConstants.budget]),Double.parseDouble(data[PartiesConstants.popularity]),Double.parseDouble(data[PartiesConstants.trust]),Integer.parseInt(data[PartiesConstants.amountOfFederalSeats]),Integer.parseInt(data[PartiesConstants.amountOfRegionalSeats])));
              }
             }else {
-                Region r = c.getRegions().get(data[11]);
+                Region r = c.getRegions().get(data[PartiesConstants.region]);
                 if (r == null) {
                     throw new ReadRegionException("Region could not be found");
                 } else {
                     Government g = (Government) r.getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
                     try {
-                        g.getParties().put(data[2], new PoliticalParty(Integer.parseInt(data[0]), data[1], data[2], data[3], data[4], Long.parseLong(data[5]), Double.parseDouble(data[6]), Double.parseDouble(data[7]), Integer.parseInt(data[8]), Integer.parseInt(data[9])));
+                        g.getParties().put(data[PartiesConstants.shortname], new PoliticalParty(Integer.parseInt(data[PartiesConstants.id]),data[PartiesConstants.name],data[PartiesConstants.shortname],data[PartiesConstants.primaryColor],data[PartiesConstants.secundaryColor],Long.parseLong(data[PartiesConstants.budget]),Double.parseDouble(data[PartiesConstants.popularity]),Double.parseDouble(data[PartiesConstants.trust]),Integer.parseInt(data[PartiesConstants.amountOfFederalSeats]),Integer.parseInt(data[PartiesConstants.amountOfRegionalSeats])));
                     }catch (NullPointerException e) {
-                        throw new ReadPartyException("Party " + data[2] + " could not be found!");
+                        throw new ReadPartyException("Party " + data[PartiesConstants.shortname] + " could not be found!");
                     }
                 }
             }

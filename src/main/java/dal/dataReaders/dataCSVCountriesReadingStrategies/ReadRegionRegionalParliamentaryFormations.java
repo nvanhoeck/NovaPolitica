@@ -6,6 +6,7 @@ import bl.domain.regions.Region;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadParliamentException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.ParliamentFormationsConstants;
 
 import java.util.HashMap;
 
@@ -14,22 +15,22 @@ public class ReadRegionRegionalParliamentaryFormations implements ReadCountryDat
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws ReadCountryException, ReadRegionException, ReadParliamentException {
-        if(countries.containsKey(data[4])){
-            Country c = countries.get(data[4]);
-            if(!data[5].equals("NONE")){
-                if(c.getRegions().containsKey(data[5])){
-                    Region r = c.getRegions().get(data[5]);
-                    if(r.getRegionalParliament().getId()==Integer.parseInt(data[3])) {
-                        r.getRegionalParliament().setParliamentFormation(new ParliamentaryFormation(Integer.parseInt(data[0]), data[1], Integer.parseInt(data[2])));
+        if(countries.containsKey(data[ParliamentFormationsConstants.country])){
+            Country c = countries.get(data[ParliamentFormationsConstants.country]);
+            if(!data[ParliamentFormationsConstants.region].equals("NONE")){
+                if(c.getRegions().containsKey(data[ParliamentFormationsConstants.region])){
+                    Region r = c.getRegions().get(data[ParliamentFormationsConstants.region]);
+                    if(r.getRegionalParliament().getId()==Integer.parseInt(data[ParliamentFormationsConstants.parliament])) {
+                        r.getRegionalParliament().setParliamentFormation(new ParliamentaryFormation(Integer.parseInt(data[ParliamentFormationsConstants.id]), data[ParliamentFormationsConstants.name], Integer.parseInt(data[ParliamentFormationsConstants.amountofseats])));
                     }else {
-                        throw new ReadParliamentException("Parliament with id " + data[3] + " could not be found in region " + data[5] + " for Regional Parliament Formations!");
+                        throw new ReadParliamentException("Parliament with id " + data[ParliamentFormationsConstants.parliament] + " could not be found in region " + data[ParliamentFormationsConstants.region] + " for Regional Parliament Formations!");
                     }
                 }else {
-                    throw new ReadRegionException("Region " + data[5] + " could not be found for Regional Parliament Formations");
+                    throw new ReadRegionException("Region " + data[ParliamentFormationsConstants.region] + " could not be found for Regional Parliament Formations");
                 }
             }
         }else {
-            throw new ReadCountryException("Country " + data[4] + " could not be found for Regional Parliament Formations!");
+            throw new ReadCountryException("Country " + data[ParliamentFormationsConstants.country] + " could not be found for Regional Parliament Formations!");
         }
         return countries;
     }

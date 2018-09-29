@@ -5,6 +5,7 @@ import bl.domain.countries.Country;
 import bl.domain.countries.Monarch;
 import bl.domain.countries.NoMonarch;
 import dal.resources.Monarchies;
+import tools.dataconstants.MonarchyConstants;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,22 +23,22 @@ public class ReadCountryMonarchies implements ReadCountryDataInterface {
     public HashMap<String,Country> readCSV(HashMap<String,Country> countries, String [] data) {
         countries.values().stream().filter(country -> !country.isHasMonarchy()).forEach(c -> c.setMonarch(new NoMonarch()));
         boolean isMarried = false;
-        if (data[3].toLowerCase().equals("y")) {
+        if (data[MonarchyConstants.married].toLowerCase().equals("y")) {
             isMarried = true;
         }
         Gender gender;
-        if (data[5].toLowerCase().equals("f")) {
+        if (data[MonarchyConstants.gender].toLowerCase().equals("f")) {
             gender = Gender.FEMALE;
         } else {
             gender = Gender.MALE;
         }
         SimpleDateFormat birthday = new SimpleDateFormat("dd/mm/yyyy");
         try {
-            if (monarchs.containsKey(data[7])) {
-                monarchs.get(data[7]).getMonarchs().put(Integer.valueOf(data[6]), new Monarch(Integer.parseInt(data[0]), data[1], data[2], isMarried, gender, Integer.parseInt(data[6]), birthday.parse(data[8])));
+            if (monarchs.containsKey(data[MonarchyConstants.countryAcronym])) {
+                monarchs.get(data[MonarchyConstants.countryAcronym]).getMonarchs().put(Integer.valueOf(data[MonarchyConstants.priority]), new Monarch(Integer.parseInt(data[MonarchyConstants.id]), data[MonarchyConstants.name], data[MonarchyConstants.title], isMarried, gender, Integer.parseInt(data[MonarchyConstants.priority]), birthday.parse(data[MonarchyConstants.birthday])));
             } else {
-                monarchs.put(data[7], new Monarchies(data[7], new HashMap<>()));
-                monarchs.get(data[7]).getMonarchs().put(Integer.valueOf(data[6]), new Monarch(Integer.parseInt(data[0]), data[1], data[2], isMarried, gender, Integer.parseInt(data[6]), birthday.parse(data[8])));
+                monarchs.put(data[MonarchyConstants.countryAcronym], new Monarchies(data[MonarchyConstants.countryAcronym], new HashMap<>()));
+                monarchs.get(data[MonarchyConstants.countryAcronym]).getMonarchs().put(Integer.valueOf(data[MonarchyConstants.priority]), new Monarch(Integer.parseInt(data[MonarchyConstants.id]), data[MonarchyConstants.name], data[MonarchyConstants.title], isMarried, gender, Integer.parseInt(data[MonarchyConstants.priority]), birthday.parse(data[MonarchyConstants.birthday])));
             }
         } catch (ParseException e) {
             e.printStackTrace();

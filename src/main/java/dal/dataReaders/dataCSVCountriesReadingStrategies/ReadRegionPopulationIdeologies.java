@@ -5,6 +5,7 @@ import bl.domain.ideologies.PopulationIdeology;
 import bl.domain.regions.Region;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.PopulationIdeologiesConstants;
 
 import java.util.HashMap;
 
@@ -19,15 +20,15 @@ public class ReadRegionPopulationIdeologies implements ReadCountryDataInterface 
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws Exception {
-        Country c = countries.get(data[4]);
+        Country c = countries.get(data[PopulationIdeologiesConstants.country]);
         if (c == null) {
-            throw new ReadCountryException("Country " + data[4] + " has not beend found!");
+            throw new ReadCountryException("Country " + data[PopulationIdeologiesConstants.country] + " has not beend found!");
         } else {
-            Region r = c.getRegions().get(data[5]);
+            Region r = c.getRegions().get(data[PopulationIdeologiesConstants.region]);
             if (r == null) {
-                throw new ReadRegionException("Region " +data[5] + "has not beend found!" );
+                throw new ReadRegionException("Region " +data[PopulationIdeologiesConstants.region] + "has not beend found!" );
             } else {
-                r.getPopulation().getPopulationIdeologies().put(Integer.parseInt(data[0]),new PopulationIdeology(Integer.parseInt(data[0]),data[1],listener.updateIdeology(Integer.parseInt(data[2])),Long.parseLong(data[3])));
+                r.getPopulation().getPopulationIdeologies().put(Integer.parseInt(data[PopulationIdeologiesConstants.id]),new PopulationIdeology(Integer.parseInt(data[PopulationIdeologiesConstants.id]),data[PopulationIdeologiesConstants.name],listener.updateIdeology(Integer.parseInt(data[PopulationIdeologiesConstants.ideologytype])),Long.parseLong(data[PopulationIdeologiesConstants.amount])));
             }
         }
         return countries;

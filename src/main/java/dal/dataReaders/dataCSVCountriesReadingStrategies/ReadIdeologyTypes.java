@@ -2,6 +2,8 @@ package dal.dataReaders.dataCSVCountriesReadingStrategies;
 
 import bl.domain.ideologies.PopulationIdeology;
 import bl.domain.regions.Language;
+import tools.Constants;
+import tools.dataconstants.IdeologyTypesConstants;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,7 +21,7 @@ public class ReadIdeologyTypes implements CountryDataIdeologytypeListener {
     @Override
     public void setIdeologyTypes() {
         try {
-            File file = new File(System.getProperty("user.dir") + "/src/main/resources/data/inputData/static/countries/populationideologiestypes.csv");
+            File file = new File(Constants.COUNTRYINPUTDATAPATH + "populationideologiestypes.csv");
             System.out.println("Loading ideologytypes from " + file.getAbsolutePath());
             FileReader reader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(reader);
@@ -29,11 +31,11 @@ public class ReadIdeologyTypes implements CountryDataIdeologytypeListener {
             while (line !=null) {
                 if (counter!=0) {
                     String data[] = line.split(";");
-                    switch (Integer.parseInt(data[0])){
-                        case 1:ideologyTypes.put(Integer.parseInt((data[0])), PopulationIdeology.IdeologyType.PRIMARY);break;
-                        case 2:ideologyTypes.put(Integer.parseInt((data[0])), PopulationIdeology.IdeologyType.SECUNDARY);break;
-                        case 3:ideologyTypes.put(Integer.parseInt((data[0])), PopulationIdeology.IdeologyType.ADDITIONAL);break;
-                        default:ideologyTypes.put(Integer.parseInt(data[0]), PopulationIdeology.IdeologyType.ADDITIONAL);
+                    switch (Integer.parseInt(data[IdeologyTypesConstants.ID])){
+                        case 1:ideologyTypes.put(Integer.parseInt((data[IdeologyTypesConstants.ID])), PopulationIdeology.IdeologyType.PRIMARY);break;
+                        case 2:ideologyTypes.put(Integer.parseInt((data[IdeologyTypesConstants.ID])), PopulationIdeology.IdeologyType.SECUNDARY);break;
+                        case 3:ideologyTypes.put(Integer.parseInt((data[IdeologyTypesConstants.ID])), PopulationIdeology.IdeologyType.ADDITIONAL);break;
+                        default:ideologyTypes.put(Integer.parseInt(data[IdeologyTypesConstants.ID]), PopulationIdeology.IdeologyType.ADDITIONAL);
                     }
                 }
                 line = bufferedReader.readLine();

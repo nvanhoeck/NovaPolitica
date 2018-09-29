@@ -3,6 +3,7 @@ package dal.dataReaders.dataCSVCountriesReadingStrategies;
 import bl.domain.countries.Country;
 import bl.domain.parliaments.Parliament;
 import dal.exceptions.ReadCountryException;
+import tools.dataconstants.ParliamentConstants;
 
 import java.util.HashMap;
 
@@ -15,11 +16,11 @@ public class ReadCountryFederalParliaments implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws ReadCountryException {
-        if(data[3].equals("F")){
-            if(countries.containsKey(data[4])) {
-                countries.get(data[4]).setParliament(new Parliament(Integer.parseInt(data[0]), Integer.parseInt(data[1]), data[2]));
+        if(data[ParliamentConstants.type].equals("F")){
+            if(countries.containsKey(data[ParliamentConstants.acronym])) {
+                countries.get(data[ParliamentConstants.acronym]).setParliament(new Parliament(Integer.parseInt(data[ParliamentConstants.id]), Integer.parseInt(data[ParliamentConstants.totalseats]), data[ParliamentConstants.name]));
             }else {
-                throw new ReadCountryException("Country " + data[4] + " could not be found for Federal Parliaments!");
+                throw new ReadCountryException("Country " + data[ParliamentConstants.acronym] + " could not be found for Federal Parliaments!");
             }
         }
 

@@ -9,6 +9,7 @@ import bl.domain.politicalParties.PoliticalParty;
 import dal.exceptions.ReadPartyException;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.TopicResultsConstants;
 
 import java.util.HashMap;
 
@@ -23,11 +24,11 @@ public class ReadPartyTopicResult implements ReadCountryDataInterface {
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws Exception {
 
-        if(countries.containsKey(data[2])){
-           Country country = countries.get(data[2]);
-            if (data[3].equals("NONE")){
+        if(countries.containsKey(data[TopicResultsConstants.country])){
+           Country country = countries.get(data[TopicResultsConstants.country]);
+            if (data[TopicResultsConstants.region].equals("NONE")){
                 Government government = (Government) country.getParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-                PoliticalParty party = government.getParties().get(data[1]);
+                PoliticalParty party = government.getParties().get(data[TopicResultsConstants.party]);
                 for (int i = 4; i < data.length; i++) {
                     PoliticalTopic politicalTopic;
                     if(Integer.parseInt(data[i])>2) {
@@ -40,10 +41,10 @@ public class ReadPartyTopicResult implements ReadCountryDataInterface {
                     party.getPoliticalSpectrum().getPoliticalResult().put(i-3,new TopicResult(i-3,politicalTopic.getName(),Integer.parseInt(data[i]),politicalTopic));
                 }
             }
-           else if(country.getRegions().containsKey(data[3])){
-               Government government= (Government) country.getRegions().get(data[3]).getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
-               if(government.getParties().containsKey(data[1])){
-                   PoliticalParty party = government.getParties().get(data[1]);
+           else if(country.getRegions().containsKey(data[TopicResultsConstants.region])){
+               Government government= (Government) country.getRegions().get(data[TopicResultsConstants.region]).getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().get(ParliamentTypes.GOVERNMENT);
+               if(government.getParties().containsKey(data[TopicResultsConstants.party])){
+                   PoliticalParty party = government.getParties().get(data[TopicResultsConstants.party]);
                    for (int i = 4; i < data.length; i++) {
                        PoliticalTopic politicalTopic;
                        if(Integer.parseInt(data[i])>2) {
@@ -56,13 +57,13 @@ public class ReadPartyTopicResult implements ReadCountryDataInterface {
                        party.getPoliticalSpectrum().getPoliticalResult().put(i-3,new TopicResult(i-3,politicalTopic.getName(),Integer.parseInt(data[i]),politicalTopic));
                    }
                }else {
-                   throw new ReadPartyException("The party " + data[1] + " has not been found in Party Topic Result!");
+                   throw new ReadPartyException("The party " + data[TopicResultsConstants.party] + " has not been found in Party Topic Result!");
                }
            }else {
-               throw new ReadRegionException("Region " + data[3] + " has not been found in Party Topic Result!");
+               throw new ReadRegionException("Region " + data[TopicResultsConstants.region] + " has not been found in Party Topic Result!");
            }
         }else {
-            throw new ReadCountryException("Country " + data[2] + "has not been found in Party Topic Result!");
+            throw new ReadCountryException("Country " + data[TopicResultsConstants.country] + "has not been found in Party Topic Result!");
         }
         return countries;
     }

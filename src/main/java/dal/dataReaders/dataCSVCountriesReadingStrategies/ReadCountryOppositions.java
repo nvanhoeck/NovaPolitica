@@ -7,6 +7,7 @@ import bl.domain.parliaments.ParliamentTypes;
 import bl.domain.regions.Region;
 import dal.exceptions.ReadCountryException;
 import dal.exceptions.ReadRegionException;
+import tools.dataconstants.OppositionConstants;
 
 import java.util.HashMap;
 
@@ -14,22 +15,22 @@ public class ReadCountryOppositions implements ReadCountryDataInterface {
 
     @Override
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws ReadRegionException, ReadCountryException {
-        if(countries.containsKey(data[5])){
-            Country c = countries.get(data[5]);
-            if(data[6].equals("NONE")){
-                if(c.getParliament().getParliamentFormation().getId()==Integer.parseInt(data[7])){
-                    c.getParliament().getParliamentFormation().getGovernmentAndOpposition().put(ParliamentTypes.OPPOSITION,new Government(Integer.parseInt(data[0]),data[1],Integer.parseInt(data[2]),Integer.parseInt(data[3]),Integer.parseInt(data[4])));
+        if(countries.containsKey(data[OppositionConstants.country])){
+            Country c = countries.get(data[OppositionConstants.country]);
+            if(data[OppositionConstants.region].equals("NONE")){
+                if(c.getParliament().getParliamentFormation().getId()==Integer.parseInt(data[OppositionConstants.parliamentformation])){
+                    c.getParliament().getParliamentFormation().getGovernmentAndOpposition().put(ParliamentTypes.OPPOSITION,new Government(Integer.parseInt(data[OppositionConstants.id]),data[OppositionConstants.name],Integer.parseInt(data[OppositionConstants.popularity]),Integer.parseInt(data[OppositionConstants.trust]),Integer.parseInt(data[OppositionConstants.amountofseats])));
                 }
             }else {
-                if (c.getRegions().containsKey(data[6])){
-                    Region r = c.getRegions().get(data[6]);
-                    if (r.getRegionalParliament().getParliamentFormation().getId()==Integer.parseInt(data[7])){
-                        r.getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().put(ParliamentTypes.OPPOSITION,new Government(Integer.parseInt(data[0]),data[1],Integer.parseInt(data[2]),Integer.parseInt(data[3]),Integer.parseInt(data[4])));
+                if (c.getRegions().containsKey(data[OppositionConstants.region])){
+                    Region r = c.getRegions().get(data[OppositionConstants.region]);
+                    if (r.getRegionalParliament().getParliamentFormation().getId()==Integer.parseInt(data[OppositionConstants.parliamentformation])) {
+                        r.getRegionalParliament().getParliamentFormation().getGovernmentAndOpposition().put(ParliamentTypes.OPPOSITION, new Government(Integer.parseInt(data[OppositionConstants.id]), data[OppositionConstants.name], Integer.parseInt(data[OppositionConstants.popularity]), Integer.parseInt(data[OppositionConstants.trust]), Integer.parseInt(data[OppositionConstants.amountofseats])));
                     }
-                }else throw new ReadRegionException("Region " + data[6] + " has not been found for Oppositions!");
+                    }else throw new ReadRegionException("Region " + data[OppositionConstants.region] + " has not been found for Oppositions!");
             }
         }else {
-            throw new ReadCountryException("Country " + data[5]  + " has not been found for Oppositions!");
+            throw new ReadCountryException("Country " + data[OppositionConstants.country]  + " has not been found for Oppositions!");
         }
         return countries;
     }
