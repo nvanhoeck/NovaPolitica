@@ -1,0 +1,4 @@
+id;name;popularity;trust;amountofseats;country(acronym);region(acronym);parliamentformation(id);
+1;Michel I;50;50;85;BE;NONE;1;
+2;Bourgouis I;50;50;150;BE;FLA;2;
+3;Magnette I;50;50;150;BE;WLN;3;

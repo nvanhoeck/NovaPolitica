@@ -1,0 +1,21 @@
+﻿id;name;ideologytype(id)
+1;Nationalism;1
+2;Conservatism;1
+3;Socialism;1
+4;Liberalism;1
+5;Ecologism;1
+6;Conservative-Liberal;2
+7;Reactionary;2
+8;Anarchism;2
+9;Communism;2
+10;Democratic Socialism;2
+11;Libertarian Socialism;2
+12;Communitarism;2
+13;Left Socialism;2
+14;Classic Liberalism;2
+15;Liberitarian;2
+16;Neo Liberalism;2
+17;Progressive Liberalism;2
+18;Christians;3
+19;Islamic;3
+20;Feminism;3

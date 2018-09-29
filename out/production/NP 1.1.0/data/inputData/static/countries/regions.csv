@@ -1,0 +1,3 @@
+id;name;population;acronym;gdp;surface;capital;primaryLanguage(id);secundaryLanguage(id);country (Acronym);
+1;Flanders;6444000;FLA;233433000000;13522;Brussels;1;2;BE;
+2;Wallonia;3602216;WLN;95443000000;16844;Namur;2;1;BE;

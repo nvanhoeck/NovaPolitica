@@ -1,0 +1,41 @@
+﻿id;name;ideologytype(id);amount;country(acronym);region(acronym)
+1;Flemish Nationalism;1;1595755;BE;FLA
+2;Flemish Conservatism;1;4398498;BE;FLA
+3;Flemish Socialism;1;704186;BE;FLA
+4;Flemish Liberalism;1;1999462;BE;FLA
+5;Flemish Ecologism;1;358947;BE;FLA
+6;Flemish Conservative-Liberal;2;1381588;BE;FLA
+7;Flemish Reactionary;2;0;BE;FLA
+8;Flemish Anarchism;2;0;BE;FLA
+9;Flemish Communism;2;118333;BE;FLA
+10;Flemish Democratic Socialism;2;585853;BE;FLA
+11;Flemish Libertarian Socialism;2;0;BE;FLA
+12;Flemish Communitarism;2;0;BE;FLA
+13;Flemish Left Socialism;2;352093;BE;FLA
+14;Flemish Classic Liberalism;2;646288;BE;FLA
+15;Flemish Liberitarian;2;161572;BE;FLA
+16;Flemish Neo Liberalism;2;323144;BE;FLA
+17;Flemish Progressive Liberalism;2;213275;BE;FLA
+18;Flemish Christians;3;774867;BE;FLA
+19;Flemish Islamic;3;48330;BE;FLA
+20;Flemish Feminism;3;3727;BE;FLA
+21;Wallonian Nationalism;1;144623;BE;WLN
+22;Wallonian Conservatism;1;93948;BE;WLN
+23;Wallonian Socialism;1;827601;BE;WLN
+24;Wallonian Liberalism;1;629189;BE;WLN
+25;Wallonian Ecologism;1;170404;BE;WLN
+26;Wallonian Conservative-Liberal;2;93948;BE;WLN
+27;Wallonian Reactionary;2;0;BE;WLN
+28;Wallonian Anarchism;2;0;BE;WLN
+29;Wallonian Communism;2;113814;BE;WLN
+30;Wallonian Democratic Socialism;2;952885;BE;WLN
+31;Wallonian Libertarian Socialism;2;0;BE;WLN
+32;Wallonian Communitarism;2;0;BE;WLN
+33;Wallonian Left Socialism;2;663112;BE;WLN
+34;Wallonian Classic Liberalism;2;535241;BE;WLN
+35;Wallonian Liberitarian;2;133810;BE;WLN
+36;Wallonian Neo Liberalism;2;401431;BE;WLN
+37;Wallonian Progressive Liberalism;2;267620;BE;WLN
+38;Wallonian Christians;3;289773;BE;WLN
+39;Wallonian Islamic;3;35660;BE;WLN
+40;Wallonian Feminism;3;0;BE;WLN

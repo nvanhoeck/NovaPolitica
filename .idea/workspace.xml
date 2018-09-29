@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="[Master]: Base Game">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_btmatthews_selenium_junit4_selenium_junit4_runner_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NP 1.1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/Launcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/InitService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/DurationInWeeks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/Centralisation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/DemocraticValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/GovernmentForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/HeadOfStateForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/Monarch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/MonarchType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/NoMonarch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/Rulership.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/StateForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/countries/StatePhilosophy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/exceptions/RequestedDataNotFound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/ideologies/PoliticalSpectrum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/ideologies/PoliticalTopic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/ideologies/PopulationIdeology$IdeologyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/ideologies/PopulationIdeology.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/ideologies/TopicResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/FormationInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/Government.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/Ministry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/Opposition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/Parliament.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/ParliamentTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/parliaments/ParliamentaryFormation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/politicalParties/PartyGoal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/politicalParties/PartyGoalType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/politicalParties/PoliticalParty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/politicalParties/PoliticalSkill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/politicalParties/Politician.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/regions/Language.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/regions/Population.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/regions/Region.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/regions/Religion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionController$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionControllerOLD$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionControllerOLD$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionControllerOLD$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionControllerOLD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenuController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenuController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenuController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenuController$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/TestLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/animationHandlers/CountrySelectionAnimationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/testlaunchers/FontTestLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/testlaunchers/FontWeightTestLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/DALTransferService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/InitDal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/LoadDataMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/CSVCountriesReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/CSVGeneralInfoReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/CSVReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/CSVReaderStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryDataIdeologytypeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryDataLanguageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryNonElectedPartiesListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/PartyDataPoliticalTopicListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCentralisations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDataInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMinistries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRulerships.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStateForms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoalTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSkills.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticianPoliticalSkills.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoCentralizations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoDataInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoHeadOfStateForsm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoLanguages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPoliticalSkills.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPoliticalTopics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPopulationIdeologies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPopulationIdeologiesTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoReligions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoRulerships.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoStatePhilosiphies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataWriters/CountryDataWriterListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataWriters/GeneralDataListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataWriters/JsonCountriesWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataWriters/JsonDALWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataWriters/JsonGeneralDataWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/exceptions/ReadCountryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/exceptions/ReadParliamentException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/exceptions/ReadPartyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/exceptions/ReadPoliticalPartyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/exceptions/ReadRegionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/exceptions/TransformationDataException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/jsonMappers/InterfaceSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/resources/Monarchies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/belgium_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/belgium_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/belgium_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/belgium_tiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/romania_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/romania_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/romania_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/countries/romania_tiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/misc/paper_flag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/misc/paper_flag_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/images/misc/paper_flag_medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/countries/Belgium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/centralisations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/headofstates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/languages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/politicalskills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/politicaltopics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/populationideologies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/populationideologytypes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/religions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/rulerships.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/generaldata/statephilosophies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/centralisations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/countries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/democraticvalues.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/governmentform.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/governments.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/headofstateforms.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/languages.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/ministries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/monarchies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/nonelectedparties.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/oppositions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/parliamentaryformations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/parliaments.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/parties.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/partygoals.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/partygoaltypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/politicalskills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/politicalspectrums.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/politicaltopics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/politicianpoliticalskills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/politicians.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/populationideologies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/populationideologiestypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/populations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/regions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/religions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/rulerships.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/stateforms.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/statephilosophies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/topicresults.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/centralisations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/headofstateforms.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/languages.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/politicalskills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/politicaltopics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/populationideologies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/populationideologiestypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/religions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/rulerships.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/generaldata/statephilosophies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/backgroundImages/bgMain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/backgroundImages/newGameBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/css/newGameStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/icons/general/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/images/mainScreenLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/resources - Snelkoppeling.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/Coordinate$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/Coordinate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/NodePlacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/OverallKeyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/ShapeDrawer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/ShapeDrawer$BorderType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/ShapeDrawer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/views/countryselection.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/views/mainmenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/NP 1.1.0/bl/domain/countries/ChooseCountryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/NP 1.1.0/bl/domain/regions/ChooseRegion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/NP 1.1.0/tools/CoordinateTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/NP 1.1.0/tools/CoordinateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/InitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/DurationInWeeks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/Centralisation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/DemocraticValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/GovernmentForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/HeadOfStateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/Monarch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/MonarchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/NoMonarch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/Rulership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/StateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/countries/StatePhilosophy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/exceptions/RequestedDataNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/ideologies/PoliticalSpectrum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/ideologies/PoliticalTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/ideologies/PopulationIdeology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/ideologies/TopicResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/FormationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/Government.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/Ministry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/Opposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/Parliament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/ParliamentTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/ParliamentaryFormation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PartyGoal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PartyGoalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PoliticalParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PoliticalSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/Politician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/regions/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/regions/Population.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/regions/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/domain/regions/Religion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/MainMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/animationHandlers/CountrySelectionAnimationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/testlaunchers/FontTestLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/testlaunchers/FontWeightTestLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/DALTransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/InitDal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/LoadDataMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVReaderStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryDataIdeologytypeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryDataLanguageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryNonElectedPartiesListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/PartyDataPoliticalTopicListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCentralisations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDataInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMinistries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRulerships.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStateForms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoalTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticianPoliticalSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoCentralizations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoDataInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoHeadOfStateForsm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPoliticalSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPoliticalTopics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPopulationIdeologies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPopulationIdeologiesTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoReligions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoRulerships.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoStatePhilosiphies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataWriters/CountryDataWriterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataWriters/GeneralDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataWriters/JsonCountriesWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataWriters/JsonDALWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/dataWriters/JsonGeneralDataWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/exceptions/ReadCountryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/exceptions/ReadParliamentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/exceptions/ReadPartyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/exceptions/ReadPoliticalPartyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/exceptions/ReadRegionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/exceptions/TransformationDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/jsonMappers/InterfaceSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dal/resources/Monarchies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/NodePlacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/OverallKeyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/ShapeDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/views/mainmenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/belgium_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/belgium_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/belgium_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/belgium_tiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/romania_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/romania_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/romania_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/countries/romania_tiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/misc/paper_flag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/misc/paper_flag_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/images/misc/paper_flag_medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/countries/Belgium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/centralisations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/headofstates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/languages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/politicalskills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/politicaltopics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/populationideologies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/populationideologytypes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/religions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/rulerships.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/generaldata/statephilosophies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/centralisations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/countries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/democraticvalues.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/governmentform.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/governments.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/headofstateforms.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/languages.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/ministries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/monarchies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/nonelectedparties.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/oppositions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/parliamentaryformations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/parliaments.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/parties.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/partygoals.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/partygoaltypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicalskills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicalspectrums.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicaltopics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicianpoliticalskills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicians.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/populationideologies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/populationideologiestypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/populations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/regions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/religions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/rulerships.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/stateforms.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/statephilosophies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/topicresults.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/centralisations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/headofstateforms.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/languages.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/politicalskills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/politicaltopics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/populationideologies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/populationideologiestypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/religions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/rulerships.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/statephilosophies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/backgroundImages/bgMain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/backgroundImages/newGameBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/icons/general/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/images/mainScreenLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/resources - Snelkoppeling.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/bl/domain/countries/ChooseCountryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/bl/domain/regions/ChooseRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/tools/CoordinateTest.java" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1877502720">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="css" value="1" />
+          <entry key="fxml" value="1" />
+          <entry key="java" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="37" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="216" />
+          <entry key="txt" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="216" />
+          <entry key="PLAIN_TEXT" value="21" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="353" column="19" selection-start-line="353" selection-start-column="19" selection-end-line="353" selection-end-column="19" />
+              <folding>
+                <element signature="e#2734#2762#0" expanded="true" />
+                <element signature="e#19272#19300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/bl/domain/regions/ChooseRegion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/countries/Country.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+              <folding>
+                <element signature="e#2764#2765#0" expanded="true" />
+                <element signature="e#2794#2795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="358" column="19" lean-forward="true" selection-start-line="358" selection-start-column="19" selection-end-line="358" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#CountrySelectionController#0" />
+                <element signature="e#2781#2809#0" expanded="true" />
+                <element signature="method#setupCountryFlags#0;class#CountrySelectionController#0" />
+                <element signature="method#setup1stCenterDiamond#0;class#CountrySelectionController#0" />
+                <element signature="method#setup2ndCenterDiamond#0;class#CountrySelectionController#0" />
+                <element signature="method#setupContinentIcon#0;class#CountrySelectionController#0" />
+                <element signature="method#loadingGameData#0;class#CountrySelectionController#0" />
+                <element signature="docComment;method#showSelectionAnimation#0;class#CountrySelectionController#0" />
+                <element signature="method#showSelectionAnimation#0;class#CountrySelectionController#0" />
+                <element signature="e#17351#17485#0" />
+                <element signature="e#19666#19694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/NodePlacer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/bl/domain/countries/ChooseCountryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PoliticalParty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="184" column="51" selection-start-line="184" selection-start-column="51" selection-end-line="184" selection-end-column="51" />
+              <folding>
+                <element signature="e#5930#5931#0" expanded="true" />
+                <element signature="e#5982#5983#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/ShapeDrawer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="188" column="86" selection-start-line="188" selection-start-column="86" selection-end-line="188" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PP</find>
+      <find>PP;</find>
+      <find>DéFI</find>
+      <find>*0.75*0.10</find>
+      <find>c</find>
+      <find>coordinates</find>
+      <find>getWidth()</find>
+      <find>System</find>
+      <find>Grunge</find>
+      <find>.out</find>
+      <find>stat</find>
+      <find>Belgium</find>
+      <find>init</find>
+      <find>System.out</find>
+      <find>Sys</find>
+      <find>resources</find>
+      <find>resourcesPath</find>
+      <find>Canvas</find>
+      <find>2nd</find>
+      <find>dropdownBox</find>
+      <find>wra</find>
+      <find>alig</find>
+      <find>BackgroundI</find>
+      <find>Screenwidth</find>
+      <find>newGameStyles</find>
+      <find>resource</find>
+      <find>getClass().getResource</find>
+      <find>stylesheet</find>
+      <find>get</find>
+      <find>alignment</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\&quot;</replace>
+      <replace>:</replace>
+      <replace>&quot;</replace>
+      <replace>,\n\t</replace>
+      <replace>\t\t</replace>
+      <replace>\&quot;=</replace>
+      <replace>\\</replace>
+      <replace>WLN</replace>
+      <replace>r.</replace>
+      <replace>Ecolo</replace>
+      <replace>VB</replace>
+      <replace>GO!</replace>
+      <replace>gr.</replace>
+      <replace>;</replace>
+      <replace>region.</replace>
+      <replace>*0.12</replace>
+      <replace>o1</replace>
+      <replace>o2</replace>
+      <replace>coordinatespx</replace>
+      <replace>getPrefWidth()</replace>
+      <replace>Border</replace>
+      <replace>Flag</replace>
+      <replace>1st</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicians.csv" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/ministries.csv" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/gameData/static/countries/Belgium.json" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMinistries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/views/mainmenu.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/keysControllers/OverallKeyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/Presenters/MainMenuPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/Coordinates.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/gui/fonts/font-faces.css" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/FontTestLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/FontWeightTestLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/InitService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/backup.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/countries.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/NodePlacer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/animationHandlers/CountrySelectionAnimationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/FormationInterface.java" />
+        <option value="$PROJECT_DIR$/test/java/tools/CoordinateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/OverallKeyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoalTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSkills.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticianPoliticalSkills.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/testlaunchers/FontWeightTestLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/domain/regions/Religion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/testlaunchers/FontTestLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/domain/parliaments/Government.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/InitDal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/MainMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/LoadDataMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/DALTransferService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java" />
+        <option value="$PROJECT_DIR$/test/java/bl/domain/regions/ChooseRegion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/domain/countries/Country.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java" />
+        <option value="$PROJECT_DIR$/test/java/bl/domain/countries/ChooseCountryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PoliticalParty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/ShapeDrawer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538220041971" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/data/inputData/static/regions.csv" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tools" />
+      <recent name="bl.domain.regions" />
+      <recent name="bl.domain.countries" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="controllers.testlaunchers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\lib" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\icons\general" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\java\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\java\css" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\icons" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\backgroundImages" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\images" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\data\inputData\static\generaldata" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controllers" />
+      <recent name="dal.dataReaders.dataCSVCountriesReadingStrategies" />
+      <recent name="dal.dataReaders.dataCSVGeneralInfoReadingStrategies" />
+      <recent name="dal.exceptions" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dal.exceptions" />
+      <recent name="dal.dataWriters" />
+      <recent name="dal.dataReaders.dataCSVGeneralInfoReadingStrategies" />
+      <recent name="dal.dataReaders" />
+      <recent name="bl.domain.exceptions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FontTestLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.testlaunchers.FontTestLauncher" />
+      <module name="NP 1.1.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controllers.testlaunchers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FontWeightTestLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.testlaunchers.FontWeightTestLauncher" />
+      <module name="NP 1.1.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controllers.testlaunchers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="NP 1.1.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dal.LoadDataMain" />
+      <module name="NP 1.1.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.sample.Main" />
+      <module name="NP 1.1.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.TestLauncher" />
+      <module name="NP 1.1.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controllers.testlaunchers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestLauncher" />
+      <item itemvalue="Application.FontTestLauncher" />
+      <item itemvalue="Application.FontWeightTestLauncher" />
+      <item itemvalue="Application.LoadDataMain" />
+      <item itemvalue="Application.Launcher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.TestLauncher" />
+        <item itemvalue="Application.LoadDataMain" />
+        <item itemvalue="Application.FontTestLauncher" />
+        <item itemvalue="Application.FontWeightTestLauncher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1509449552819" duration="393000" />
+      <workItem from="1509450035822" duration="574000" />
+      <workItem from="1509450670789" duration="92000" />
+      <workItem from="1510575710089" duration="6321000" />
+      <workItem from="1510583753530" duration="8122000" />
+      <workItem from="1510594399294" duration="11469000" />
+      <workItem from="1510610663997" duration="7644000" />
+      <workItem from="1510675637503" duration="14000" />
+      <workItem from="1510675679397" duration="1849000" />
+      <workItem from="1510686841461" duration="3091000" />
+      <workItem from="1510697462368" duration="3498000" />
+      <workItem from="1510738136398" duration="1510000" />
+      <workItem from="1510861166815" duration="6910000" />
+      <workItem from="1511004505903" duration="14651000" />
+      <workItem from="1511042758167" duration="4350000" />
+      <workItem from="1511098899356" duration="11528000" />
+      <workItem from="1511116483871" duration="3358000" />
+      <workItem from="1511271612005" duration="6018000" />
+      <workItem from="1511431665508" duration="8669000" />
+      <workItem from="1511444528600" duration="16072000" />
+      <workItem from="1511473599235" duration="785000" />
+      <workItem from="1511474581464" duration="61000" />
+      <workItem from="1512055828247" duration="906000" />
+      <workItem from="1512295983531" duration="64000" />
+      <workItem from="1512296121160" duration="2546000" />
+      <workItem from="1512659040396" duration="14215000" />
+      <workItem from="1512760327852" duration="22000" />
+      <workItem from="1512935195208" duration="4061000" />
+      <workItem from="1513010222605" duration="12000" />
+      <workItem from="1513093536838" duration="219000" />
+      <workItem from="1513094014194" duration="154000" />
+      <workItem from="1513171392638" duration="19617000" />
+      <workItem from="1513259772951" duration="8150000" />
+      <workItem from="1513511390823" duration="10288000" />
+      <workItem from="1513669466642" duration="24000" />
+      <workItem from="1513790850540" duration="33000" />
+      <workItem from="1513806436901" duration="1399000" />
+      <workItem from="1513856286798" duration="39000" />
+      <workItem from="1518299573670" duration="676000" />
+      <workItem from="1524505739288" duration="7449000" />
+      <workItem from="1524594975431" duration="3246000" />
+      <workItem from="1524661950025" duration="44000" />
+      <workItem from="1524682587775" duration="249000" />
+      <workItem from="1524682901311" duration="179000" />
+      <workItem from="1526243454401" duration="3000" />
+      <workItem from="1526997777267" duration="11000" />
+      <workItem from="1534705899074" duration="84000" />
+      <workItem from="1535205805747" duration="9000" />
+      <workItem from="1535205883731" duration="9000" />
+      <workItem from="1535206171896" duration="25000" />
+      <workItem from="1535206364868" duration="247000" />
+      <workItem from="1535208966206" duration="19000" />
+      <workItem from="1535209525491" duration="2967000" />
+      <workItem from="1535278650641" duration="655000" />
+      <workItem from="1536095824951" duration="561000" />
+      <workItem from="1536418901166" duration="5000" />
+      <workItem from="1538219038356" duration="983000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ChooseCountryTest - 2017.11.23 at 13h 02m 06s.xml">
+      <configuration name="ChooseCountryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseCountryTest - 2017.11.23 at 13h 03m 21s.xml">
+      <configuration name="ChooseCountryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseCountryTest - 2017.11.23 at 13h 18m 56s.xml">
+      <configuration name="ChooseCountryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseCountryTest - 2017.11.23 at 13h 19m 42s.xml">
+      <configuration name="ChooseCountryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseCountryTest - 2017.11.23 at 13h 23m 54s.xml">
+      <configuration name="ChooseCountryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseCountryTest - 2017.11.23 at 13h 25m 46s.xml">
+      <configuration name="ChooseCountryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseRegion - 2017.11.23 at 13h 32m 47s.xml">
+      <configuration name="ChooseRegion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseRegion - 2017.11.23 at 13h 33m 05s.xml">
+      <configuration name="ChooseRegion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChooseRegion - 2017.11.23 at 13h 34m 23s.xml">
+      <configuration name="ChooseRegion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoordinateTest - 2017.12.07 at 17h 40m 04s.xml">
+      <configuration name="CoordinateTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="197451000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.41149774" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34254992" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39215687" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32565284" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Changes" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" weight="0.32718894" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32718894" />
+      <window_info anchor="bottom" id="Statistic" order="15" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JetGradle" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17019667" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34313726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39215687" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3267974" />
+      <window_info anchor="bottom" id="Event Log" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33333334" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32843137" />
+      <window_info anchor="bottom" id="Statistic" order="15" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JetGradle" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="[Master]: Base Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Master]: Base Game" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/scene/text/TextAlignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/animationHandlers/CountrySelectionAnimationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="75" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/parliaments/FormationInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/tools/CoordinateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="e#1703#1756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/OverallKeyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoalTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSkills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticianPoliticalSkills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/views/mainmenu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/testlaunchers/FontWeightTestLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/regions/Religion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/testlaunchers/FontTestLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/parliaments/Government.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/InitDal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMinistries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/LoadDataMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/DALTransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="353" column="19" selection-start-line="353" selection-start-column="19" selection-end-line="353" selection-end-column="19" />
+          <folding>
+            <element signature="e#2734#2762#0" expanded="true" />
+            <element signature="e#19272#19300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/bl/domain/regions/ChooseRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/countries/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+          <folding>
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CountrySelectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="358" column="19" lean-forward="true" selection-start-line="358" selection-start-column="19" selection-end-line="358" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CountrySelectionController#0" />
+            <element signature="e#2781#2809#0" expanded="true" />
+            <element signature="method#setupCountryFlags#0;class#CountrySelectionController#0" />
+            <element signature="method#setup1stCenterDiamond#0;class#CountrySelectionController#0" />
+            <element signature="method#setup2ndCenterDiamond#0;class#CountrySelectionController#0" />
+            <element signature="method#setupContinentIcon#0;class#CountrySelectionController#0" />
+            <element signature="method#loadingGameData#0;class#CountrySelectionController#0" />
+            <element signature="docComment;method#showSelectionAnimation#0;class#CountrySelectionController#0" />
+            <element signature="method#showSelectionAnimation#0;class#CountrySelectionController#0" />
+            <element signature="e#17351#17485#0" />
+            <element signature="e#19666#19694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/NodePlacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="209" column="46" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/bl/domain/countries/ChooseCountryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bl/domain/politicalParties/PoliticalParty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="184" column="51" selection-start-line="184" selection-start-column="51" selection-end-line="184" selection-end-column="51" />
+          <folding>
+            <element signature="e#5930#5931#0" expanded="true" />
+            <element signature="e#5982#5983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ShapeDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="188" column="86" selection-start-line="188" selection-start-column="86" selection-end-line="188" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.6.2-javadoc2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NP 1.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.google.code.gson:gson:2.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

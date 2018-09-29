@@ -1,0 +1,23 @@
+ showSelected = new ParallelTransition();
+        for (Node diamond : this.selectedFlag){
+            ScaleTransition resize = new ScaleTransition(Duration.seconds(0.1),diamond);
+            resize.setByX(0.25);
+            resize.setByY(0.25);
+            resize.setCycleCount(1);
+            resize.setOnFinished(new EventHandler<ActionEvent>() {
+                @Override
+                public void handle(ActionEvent event) {
+                    ScaleTransition back = new ScaleTransition(Duration.seconds(0.1), diamond);
+                    resize.setByY(-0.25);
+                    resize.setByX(-0.25);
+                    resize.setCycleCount(1);
+                }
+            });
+            showSelected.getChildren().add(resize);
+            TranslateTransition move = new TranslateTransition(Duration.seconds(2), diamond);
+            move.setByY(-20);
+            move.setAutoReverse(true);
+            move.setCycleCount(Timeline.INDEFINITE);
+            showSelected.getChildren().add(move);
+        }
+        showSelected.play();

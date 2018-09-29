@@ -1,0 +1,4 @@
+id;name;amountofseats;parliament(id);country(acronym);region(acronym);
+1;Federaal Parlement 2014-2019;150;1;BE;NONE;
+2;Vlaams Parlement 2014-2018;150;2;BE;FLA;
+3;Parliament Wallon 2014-2018;75;3;BE;WLN;

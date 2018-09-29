@@ -1,0 +1,31 @@
+﻿id;name;shortname;primaryColor;secundaryColor;budget;popularity;trust;amountOfFederalSeats;amountOfRegionalSeats;Country (Acronym);Region (Acronym)
+1;Christen Democratisch & Vlaams;CD&V;f47216;3a6e8f;0;50;50;0;0;BE;NONE
+2;Centre démocrate humaniste;cdH;b54230;f47520;0;50;50;0;0;BE;NONE
+3;Démécrate Fédéraliste Indepent;DéFI;e21481;ffffff;0;50;50;0;0;BE;NONE
+4;Ecolo-Groen;Ecolo-Groen;04a05f;8ac73b;0;50;50;0;0;BE;NONE
+5;Mouvément Réformateur;MR;2688c5;ffffff;0;50;50;0;0;BE;NONE
+6;Nieuwe Vlaamse - Alliantie;N-VA;fbbd1e;0;0;50;50;0;0;BE;NONE
+7;Open Vlaamse Liberalen en Democraten;Open Vld;005daa;ffffff;0;50;50;0;0;BE;NONE
+8;Parti Populaire;PP;773179;f29d2e;0;50;50;0;0;BE;NONE
+9;Parti Socialiste;PS;e50040;ffffff;0;50;50;0;0;BE;NONE
+10;Parti du Travail de Belgique;PTB-GO!;ef4235;ffffff;0;50;50;0;0;BE;NONE
+11;Socialistische Partij Anders;sp.a;ed1b2e;ffffff;0;50;50;0;0;BE;NONE
+12;Vlaams Belang;VB;ffe401;1b1c20;0;50;50;0;0;BE;NONE
+13;Vuye&Wouters;Vuye&Wouters;0;ffffff;0;50;50;0;0;BE;NONE
+14;Groen;Groen;8ac73b;ffffff;0;50;50;0;0;BE;FLA
+1;Christen Democratisch & Vlaams;CD&V;f47216;3a6e8f;0;50;50;0;0;BE;FLA
+6;Nieuwe Vlaamse - Alliantie;N-VA;fbbd1e;0;0;50;50;0;0;BE;FLA
+7;Open Vlaamse Liberalen en Democraten;Open Vld;005daa;ffffff;0;50;50;0;0;BE;FLA
+11;Socialistische Partij Anders;sp.a;ed1b2e;ffffff;0;50;50;0;0;BE;FLA
+12;Vlaams Belang;VB;ffe401;1b1c20;0;50;50;0;0;BE;FLA
+13;Onafhankelijke;Onafhankelijke;ffffff;aaaaaa;0;50;50;0;0;BE;FLA;
+14;Union des Francophone;UF;00a99d;ffffff;0;50;50;0;0;BE;FLA;
+2;Centre démocrate humaniste;cdH;b54230;f47520;0;50;50;0;0;BE;WLN
+3;Démécrate Fédéraliste Indepent;DéFI;e21481;ffffff;0;50;50;0;0;BE;WLN
+15;Ecolo;Ecolo;04a05f;ffffff;0;50;50;0;0;BE;WLN
+5;Mouvément Réformateur;MR;2688c5;ffffff;0;50;50;0;0;BE;WLN
+8;Parti Populaire;PP;773179;f29d2e;0;50;50;0;0;BE;WLN
+9;Parti Socialiste;PS;e50040;ffffff;0;50;50;0;0;BE;WLN
+10;Parti du Travail de Belgique;PTB-GO!;ef4235;ffffff;0;50;50;0;0;BE;WLN
+16;Indépendant;Indépendant;ffffff;aaaaaa;0;50;50;0;0;BE;WLN;
+17;Partij van de Arbeid;pvda;ff0000;ffffff;0;50;50;0;0;BE;FLA;

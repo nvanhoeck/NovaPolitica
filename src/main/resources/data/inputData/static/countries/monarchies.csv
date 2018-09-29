@@ -1,0 +1,4 @@
+id;name;title;married;isHeirTo(id);gender;priority;country(Acronym);birthday;
+1;Filip I;King;Y;0;M;1;BE;15/04/1906;
+2;Elisabeth I;Princes;N;1;F;2;BE;25/10/2001;
+3;Gabriel I;Prince;N;2;M;3;BE;20/08/2003;

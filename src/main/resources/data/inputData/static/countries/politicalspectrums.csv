@@ -1,0 +1,58 @@
+﻿id;party/nameideology;country(Acronym);region(Acronym);populationideology(ID)
+1;CD&V;BE;FLA;0
+2;cdH;BE;WLN;0
+3;DéFI;BE;WLN;0
+4;Ecolo;BE;WLN;0
+5;Groen;BE;FLA;0
+6;MR;BE;WLN;0
+7;N-VA;BE;FLA;0
+8;Open Vld;BE;FLA;0
+9;PP;BE;WLN;0
+10;PS;BE;WLN;0
+11;PTB-GO!;BE;WLN;0
+12;sp.a;BE;FLA;0
+13;VB;BE;FLA;0
+14;pvda;BE;FLA;0
+15;Vuye&Wouters;BE;NONE;0
+16;Onafhankelijke;BE;FLA;0
+17;Flemish Nationalism;BE;FLA;1
+18;Flemish Conservatism;BE;FLA;2
+19;Flemish Socialism;BE;FLA;3
+20;Flemish Liberalism;BE;FLA;4
+21;Flemish Ecologism;BE;FLA;5
+22;Flemish Conservative-Liberal;BE;FLA;6
+23;Flemish Reactionary;BE;FLA;7
+24;Flemish Anarchism;BE;FLA;8
+25;Flemish Communism;BE;FLA;9
+26;Flemish Democratic Socialism;BE;FLA;10
+27;Flemish Libertarian Socialism;BE;FLA;11
+28;Flemish Communitarism;BE;FLA;12
+29;Flemish Left Socialism;BE;FLA;13
+30;Flemish Classic Liberalism;BE;FLA;14
+31;Flemish Liberitarian;BE;FLA;15
+32;Flemish Neo Liberalism;BE;FLA;16
+33;Flemish Progressive Liberalism;BE;FLA;17
+34;Flemish Christians;BE;FLA;18
+35;Flemish Islamic;BE;FLA;19
+36;Flemish Feminism;BE;FLA;20
+37;Wallonian Nationalism;BE;WLN;21
+38;Wallonian Conservatism;BE;WLN;22
+39;Wallonian Socialism;BE;WLN;23
+40;Wallonian Liberalism;BE;WLN;24
+41;Wallonian Ecologism;BE;WLN;25
+42;Wallonian Conservative-Liberal;BE;WLN;26
+43;Wallonian Reactionary;BE;WLN;27
+44;Wallonian Anarchism;BE;WLN;28
+45;Wallonian Communism;BE;WLN;29
+46;Wallonian Democratic Socialism;BE;WLN;30
+47;Wallonian Libertarian Socialism;BE;WLN;31
+48;Wallonian Communitarism;BE;WLN;32
+49;Wallonian Left Socialism;BE;WLN;33
+50;Wallonian Classic Liberalism;BE;WLN;34
+51;Wallonian Liberitarian;BE;WLN;35
+52;Wallonian Neo Liberalism;BE;WLN;36
+53;Wallonian Progressive Liberalism;BE;WLN;37
+54;Wallonian Christians;BE;WLN;38
+55;Wallonian Islamic;BE;WLN;39
+56;Wallonian Feminism;BE;WLN;40
+57;Indépendant;BE;WLN;0

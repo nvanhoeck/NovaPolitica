@@ -1,0 +1,4 @@
+package dal.dataReaders.dataCSVGeneralInfoReadingStrategies;
+
+public class ReadGeneralInfoStatePhilosiphies implements ReadGeneralInfoDataInterface {
+}

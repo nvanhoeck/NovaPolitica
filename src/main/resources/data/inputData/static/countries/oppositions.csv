@@ -1,0 +1,4 @@
+﻿id;name;popularity;trust;amountofseats;country(acronym);region(acronym);parliamentformation(id)
+1;Federale Oppositie;50;50;65;BE;NONE;1
+2;Vlaamse Oppositie;50;50;0;BE;FLA;2
+3;Opposition Wallon;50;50;0;BE;WLN;3

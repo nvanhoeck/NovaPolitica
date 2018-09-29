@@ -1,0 +1,390 @@
+﻿ID;Name;Party;Salary;Gender(M/F);popularity;trust;happiness;isMinister(Y/N);primaryIdeo (id);secundaryIdeo (id);alternatifIdeo(id);isNotOnPost(Y/N);Country (Acronym);Region(Acronym);ParliamentFormation (ID)
+1;Almaci Meyrem;Ecolo-Groen;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+2;Becq Sonja;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+3;Beke Wouter;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+4;Bellens Rita;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+5;Ben Hamou Nawal;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+6;Blanchart Philippe;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+7;Bogaert Hendrik;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+8;Bonte Hans;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+9;Bracke Siegfried;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+10;Brotcorne Christian;cdH;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+11;Burton Emmanuel;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+12;Buysrogge Peter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+13;Calomne Gautier;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+14;Calvo Kristof;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+15;Capoen An;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+16;Caprasse Véronique;DéFI;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+17;Carcaci Aldo;PP;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+18;Cassart-Mailleux Caroline;MR;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+19;Ceysens Patricia;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+20;Chabot Jacques;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+21;Chastel Olivier;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+22;Cheron Marcel;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+23;Clarinval David;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+24;Crusnière Stéphane;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+25;Daerden Frédéric;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+26;Dallemagne Georges;cdH;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+27;De Coninck Monica;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+28;De Coninck Inez;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+29;de Coster-Bauchau Sybille;MR;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+30;Dedecker Peter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+31;Dedry Anne;Ecolo-Groen;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+32;Degroote Koenraad;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+33;de Lamotte Michel;cdH;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+34;Delannois Paul-Olivier;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+35;Delizée Jean-Marc;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+36;Delpérée Francis;cdH;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+37;Demon Franky;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+38;De Roover Peter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+39;Deseyn Roel;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+40;Detiège Maya;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+41;Devin Laurent;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+42;De Vriendt Wouter;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+43;Dewael Patrick;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+44;De Wever Bart;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+45;Dewinter Filip;VB;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+46;De Wit Sophie;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+47;D'Haese Christoph;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+48;Dierick Leen;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+49;Di Rupo Elio;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+50;Dispa Benoît;cdH;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+51;Dumery Daphné;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+52;Fernandez Fernandez Julie;PS;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+53;Flahaux Jean-Jacques;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+54;Fonck Catherine;cdH;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+55;Foret Gilles;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+56;Frédéric André;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+57;Friart Benoît;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+58;Gabriëls Katja;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+59;Galant Isabelle;MR;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+60;Gantois Rita;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+61;Geerts David;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+62;Gerkens Muriel;Ecolo-Groen;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+63;Gilkinet Georges;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+64;Goffin Philippe;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+65;Grosemans Karolien;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+66;Grovonius Gwenaëlle;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+67;Gustin Luc;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+68;Hedebouw Raoul;PTB-GO!;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+69;Heeren Veerle;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+70;Hellings Benoit;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+71;Hufkens Renate;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+72;Jadin Kattrin;MR;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+73;Janssen Werner;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+74;Janssens Dirk;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+75;Jiroflée Karin;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+76;Kir Emir;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+77;Kitir Meryame;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+78;Klaps Johan;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+79;Laaouej Ahmed;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+80;Lachaert Egbert;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+81;Lahaye-Battheu Sabien;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+82;Lalieux Karine;PS;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+83;Lambrecht Annick;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+84;Lanjri Nahima;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+85;Lijnen Nele;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+86;Lutgen Benoît;cdH;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+87;Luykx Peter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+88;Maingain Olivier;DéFI;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+89;Massin Eric;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+90;Mathot Alain;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+91;Matz Vanessa;cdH;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+92;Metsu Koen;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+93;Miller Richard;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+94;Muylle Nathalie;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+95;Nollet Jean-Marc;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+96;Onkelinx Laurette;PS;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+97;Özen Özlem;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+98;Pas Barbara;VB;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+99;Pehlivan Fatma;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+100;Penris Jan;VB;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+101;Piedboeuf Benoît;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+102;Pirlot Sébastian;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+103;Pivin Philippe;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+104;Poncelet Isabelle;cdH;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+105;Raskin Wouter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+106;Schepmans Françoise;MR;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+107;Scourneau Vincent;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+108;Senesael Daniel;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+109;Smaers Griet;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+110;Smeyers Sarah;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+111;Somers Ine;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+112;Spooren Jan;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+113;Temmerman Karin;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+114;Terwingen Raf;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+115;Thiébaut Eric;PS;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+116;Thiéry Damien;MR;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+117;Thoron Stéphanie;MR;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+118;Top Alain;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+119;Turtelboom Annemie;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+120;Uyttersprot Goedele;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+121;Van Biesen Luk;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+122;Van Camp Yoleen;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+123;Van Cauter Carina;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+124;Van den Bergh Jef;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+125;Vanden Burre Gilles;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+126;Vandenput Tim;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+127;Van der Donckt Wim;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+128;Van der Maelen Dirk;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+129;Van de Velde Robert;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+130;Van Hecke Stefaan;Ecolo-Groen;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+131;Van Hees Marco;PTB-GO!;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+132;Vanheste Ann;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+133;Van Hoof Els;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+134;Van Mechelen Dirk;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+135;Van Peel Valerie;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+136;Van Peteghem Vincent;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+137;Van Quickenborne Vincent;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+138;Van Rompuy Eric;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+139;Van Vaerenbergh Kristien;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+140;Vanvelthoven Peter;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+141;Vercamer Stefaan;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+142;Vercammen Jan;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+143;Verherstraeten Servais;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+144;Vermeulen Brecht;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+145;Vuye Hendrik;Vuye&Wouters;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+146;Willaert Evita;Ecolo-Groen;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+147;Winckel Fabienne;PS;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+148;Wollants Bert;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+149;Wouters Veerle;Vuye&Wouters;81000;F;50;50;5;N;0;0;0;N;BE;NONE;1
+150;Yüksel Veli;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;NONE;1
+151;Michel Charles;MR;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+151;Peeters Kris;CD&V;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+152;Jambon Jan;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+153;De Croo Alexander;Open Vld;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+154;Reynders Didier;MR;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+155;Geens Koen;CD&V;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+156;De Block Maggie;Open Vld;81000;F;50;50;5;Y;0;0;0;N;BE;NONE;1
+157;Bacquelaine Daniel;MR;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+158;Van Overtvled Johan;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+159;Marghem Marie Christine;MR;81000;F;50;50;5;Y;0;0;0;N;BE;NONE;1
+160;Vandeput Steven;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+161;Wilmès Sophie;MR;81000;F;50;50;5;Y;0;0;0;N;BE;NONE;1
+162;Bellot Frainçois;MR;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+163;Ducarme Denis;MR;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+164;De Crem Pieter;CD&V;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+165;Francken Theo;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+166;De Backer Phillippe;Open Vld;81000;M;50;50;5;Y;0;0;0;N;BE;NONE;1
+167;Demir Zuhal;N-VA;81000;F;50;50;5;Y;0;0;0;N;BE;NONE;1
+168;Annouri Imade;Groen;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+169;Anseeuw Björn;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+170;Bajart Lionel;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+171;Beenders Rob;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+172;Bertels Jan;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+173;Bothuyne Robrecht;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+174;Brouwers Karin;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+175;Brusseel Ann;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+176;Caron Bart;Groen;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+177;Celis Vera;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+178;Ceyssens Lode;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+179;Christiaens An;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+180;Claes Sonja;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+181;Coppé Griet;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+182;Cordy Paul;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+183;Coudyser Cathy;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+184;Daems Rik;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+185;Danen Johan;Groen;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+186;Daniëls Koen;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+187;de Bethune Sabine;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+188;De Bruyn Piet;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+189;De Clercq Mathias;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+190;De Croo Herman;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+191;De Gucht Jean-Jacques;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+192;de Kort Dirk;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+193;De Loor Kurt;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+194;De Meulemeester Ingeborg;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+195;De Meulemeester Marnic;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+196;De Meyer Jos;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+197;Depoortere Ortwin;VB;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+198;De Potter Jenne;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+199;De Ridder Annick;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+200;De Ro Jo;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+201;De Vroe Gwenny;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+202;D'haeseleer Guy;VB;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+203;Diependaele Matthias;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+204;Dochy Bart;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+205;Doomst Michel;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+206;Durnez Jan;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+207;Engelbosch Jelle;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+208;Fournier Martine;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+209;Franssen Cindy;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+210;Gennez Caroline;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+211;Godderis-T'Jonck Danielle;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+212;Gryffroy Andries;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+213;Helsen Kathleen;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+214;Hendrickx Marc;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+215;Hostekint Michèle;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+216;Idrissi Yamila;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+217;Jans Lies;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+218;Jans Vera;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+219;Janssens Chris;VB;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+220;Joosen Sofie;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+221;Kennes Ward;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+222;Keulen Marino;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+223;Kherbache Yasmine;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+224;Krekels Kathleen;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+225;Landuyt Renaat;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+226;Lantmeeters Jos;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+227;Maertens Bert;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+228;Maes Lieve;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+229;Meremans Marius;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+230;Meuleman Elisabeth;Groen;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+231;Moerenhout An;Groen;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+232;Moyaers Bert;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+233;Nevens Bart;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+234;Partyka Katrien;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+235;Parys Lorin;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+236;Peeters Lydia;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+237;Persyn Peter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+238;Peumans Jan;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+239;Pira Ingrid;Groen;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+240;Poschet Joris;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+241;Remen Grete;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+242;Robeyns Els;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+243;Rombouts Tinne;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+244;Ronse Axel;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+245;Rzoska Björn;Groen;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+246;Saeys Freya;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+247;Sanctorum-Vandevoorde Hermes;Onafhankelijke;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+248;Schiltz Willem-Frederik;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+249;Schryvers Katrien;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+250;Segers Katia;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+251;Segers Willy;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+252;Sintobin Stefaan;VB;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+253;Sleurs Elke;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+254;Sminate Nadia;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+255;Soens Tine;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+256;Soete Ann;Onafhankelijke;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+257;Somers Bart;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+258;Taeldeman Valerie;CD&V;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+259;Taelman Martine;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+260;Talpe Emmily;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+261;Tobback Bruno;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+262;Turan Güler;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+263;Vanbesien Wouter;Groen;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+264;Van Campenhout Ludo;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+265;Vandaele Wilfried;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+266;Vandenberghe Steve;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+267;Van den Bossche Freya;sp.a;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+268;Van den Brandt Elke;Groen;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+269;Vandenbroucke Joris;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+270;Van den Heuvel Koen;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+271;Vanderjeugd Francesco;Open Vld;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+272;Van dermeersch Anke;VB;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+273;van der Vloet Tine;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+274;Van de Wauwer Orry;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+275;Van Dijck Kris;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+276;Van Eetvelde Miranda;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+277;Van Esbroeck Jan;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+278;Van Eyken Christian;UF;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+279;Van Grieken Tom;VB;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+280;Vanlouwe Karl;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+281;Van Malderen Bart;sp.a;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+282;Van Miert Paul;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+283;Van Overmeire Karim;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+284;Van Rompuy Peter;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+285;Van Volcem Mercedes;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+286;Van Werde Manuela;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+287;Vanwesenbeeck Daniëlle;Open Vld;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+288;Vermeulen Sabine;N-VA;81000;F;50;50;5;N;0;0;0;N;BE;FLA;2
+289;Verstreken Johan;CD&V;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+290;Wouters Peter;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+291;Wynants Herman;N-VA;81000;M;50;50;5;N;0;0;0;N;BE;FLA;2
+292;Bourgeois Geert;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;FLA;2
+293;Crevits Hilde;CD&V;81000;F;50;50;5;Y;0;0;0;N;BE;FLA;2
+294;Tommelein Bart;Open Vld;81000;M;50;50;5;Y;0;0;0;N;BE;FLA;2
+295;Homans liesbeth;N-VA;81000;F;50;50;5;Y;0;0;0;N;BE;FLA;2
+296;Weyts Ben;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;FLA;2
+297;Vandeurzen Jo;CD&V;81000;M;50;50;5;Y;0;0;0;N;BE;FLA;2
+298;Muyters Phillipe;N-VA;81000;M;50;50;5;Y;0;0;0;N;BE;FLA;2
+299;Schauvliege Joke;CD&V;81000;F;50;50;5;Y;0;0;0;N;BE;FLA;2
+300;Gatz Sven;Open Vld;81000;M;50;50;5;Y;0;0;0;N;BE;FLA;2
+301;Antoine André;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+302;Arens Josy;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+303;Baltus-Möres Jenny;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+304;Baurain Pascal;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+305;Bonni Véronique;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+306;Bracaval Philippe;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+307;Brogniez Laetitia;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+308;Collignon Christophe;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+309;Courard Philippe;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+310;Culot Fabian;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+311;Daele Matthieu;Ecolo;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+312;Defraigne Christine;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+313;Denis Jean-Pierre;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+314;Dermagne Pierre-Yves;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+315;Desquesnes François;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+316;Destrebecq Olivier;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+317;Dock Magali;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+318;Dodrimont Philippe;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+319;Dreze Benoit;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+320;Dufrane Anthony;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+321;Dupont Jean-Marc;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+322;Durenne Véronique;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+323;Evrard Yves;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+324;Fourny Dimitri;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+325;Furlan Paul;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+326;Gahouchi Latifa;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+327;Galant Jacqueline;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+328;Gardier Charles;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+329;Geradon Déborah;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+330;Gillot Frédéric;PTB-GO!;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+331;Godfriaux Jordan;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+332;Gonzalez Moyano Virginie;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+333;Hazee Stéphane;Ecolo;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+334;Henquet Laurent;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+335;Henry Philippe;Ecolo;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+336;Kapompole Joëlle;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+337;Kilic Serdar;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+338;Knaepen Philippe;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+339;Lambelin Anne;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+340;Lecerf Patrick;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+341;Lecomte Carine;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+342;Lefebvre Bruno;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+343;Legasse Dimitri;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+344;Lenzini Mauro;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+345;Louvigny Lyseline;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+346;Luperto Jean-Charles;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+347;Maroy Olivier;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+348;Martin Nicolas;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+349;Moinnet Isabelle;cdH;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+350;Morreale Christie;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+351;Mottard Maurice;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+352;Mouyard Gilles;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+353;Nicaise Marie-Françoise;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+354;Onkelinx Alain;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+355;Pecriaux Sophie;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+356;Potigny Patricia;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+357;Poulin Christine;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+358;Prevot Maxime;cdH;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+359;Prevot Patrick;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+360;Puget André-Pierre;Indépendant;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+361;Ryckmans Hélène;Ecolo;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+362;Salvi Véronique;cdH;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+363;Simonet Marie-Dominique;cdH;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+364;Stoffels Edmund;PS;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+365;Stommen Isabelle;cdH;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+366;Tillieux Eliane;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+367;Trotta Graziana;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+368;Tzanetatos Nicolas;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+369;Vandorpe Mathilde;cdH;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+370;Vienne Christiane;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+371;Wahl Jean-Paul;MR;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+372;Warnier Ruddy;PTB-GO!;81000;M;50;50;5;N;0;0;0;N;BE;WLN;3
+373;Waroux Véronique;cdH;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+374;Warzee-Caverenne Valérie;MR;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+375;Zrihen Olga;PS;81000;F;50;50;5;N;0;0;0;N;BE;WLN;3
+376;Borsus Willy;MR;81000;M;50;50;5;Y;0;0;0;N;BE;WLN;3
+377;Greoli Alda;cdH;81000;F;50;50;5;Y;0;0;0;N;BE;WLN;3
+378;Jeholet Yves-Pierre;MR;81000;M;50;50;5;Y;0;0;0;N;BE;WLN;3
+379;Di Antonio Carlo;cdH;81000;M;50;50;5;Y;0;0;0;N;BE;WLN;3
+380;Crucke Jean-Luc;MR;81000;M;50;50;5;Y;0;0;0;N;BE;WLN;3
+381;De Bue Valérie;MR;81000;F;50;50;5;Y;0;0;0;N;BE;WLN;3
+382;Collin René;cdH;81000;M;50;50;5;Y;0;0;0;N;BE;WLN;3
+
+
+
+
+
+
