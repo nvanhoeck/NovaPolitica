@@ -27,10 +27,7 @@ import javafx.scene.paint.LinearGradient;
 import javafx.scene.paint.Stop;
 import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
-import tools.Coordinate;
-import tools.NodePlacer;
-import tools.OverallKeyController;
-import tools.ShapeDrawer;
+import tools.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -105,8 +102,8 @@ public class CountrySelectionControllerOLD {
         countryName = new Label();
         //TODO mogelijk een textarea ipv een label
         countryDesc = new Label();
-        NodePlacer.initLabel(countryName, "", "Bell MT", FontWeight.BOLD, Color.rgb(51,51,51), 32, FontPosture.REGULAR);
-        NodePlacer.initLabel(countryDesc, "", "Lucida Sans", FontWeight.MEDIUM, Color.rgb(51,51,51), 18, FontPosture.REGULAR);
+        NodePlacer.initLabel(countryName, "", "Bell MT", FontWeight.BOLD, ColorConstants.neutralDarkGrey, 32, FontPosture.REGULAR);
+        NodePlacer.initLabel(countryDesc, "", "Lucida Sans", FontWeight.MEDIUM, ColorConstants.neutralDarkGrey, 18, FontPosture.REGULAR);
         NodePlacer.placeLabelRelativeToScreen(view, countryName, 0.05, 0.6, 0.90, 0.25, 50,100);
         NodePlacer.placeLabelRelativeToScreen(view, countryDesc, 0.05, 0.675, 0.90, 0.2, 150, 250);
         countryName.setVisible(false);

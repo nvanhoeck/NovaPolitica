@@ -44,7 +44,7 @@ public class NodePlacer {
     }
 
 
-    public static void initImage(Pane view, ImageView node, double percentSizeOnWidth, double minHeightpx, double minWidthpx) {
+    public static void initImagePct(Pane view, ImageView node, double percentSizeOnWidth, double minHeightpx, double minWidthpx) {
         Scene scene = view.getScene();
         screenHeight = scene.getHeight();
         screenWidth = scene.getWidth();
@@ -53,6 +53,21 @@ public class NodePlacer {
         node.minHeight(minHeightpx);
         node.prefWidth(screenWidth*percentSizeOnWidth);
         node.prefHeight(screenWidth*percentSizeOnWidth);
+        node.setFitWidth(screenWidth * percentSizeOnWidth);
+        node.setFitHeight(screenHeight * percentSizeOnWidth);
+    }
+
+    public static void initImagePixels(Pane view, ImageView node, double width, double height, double minHeightpx, double minWidthpx) {
+        Scene scene = view.getScene();
+        screenHeight = scene.getHeight();
+        screenWidth = scene.getWidth();
+
+        node.minWidth(minWidthpx);
+        node.minHeight(minHeightpx);
+        node.prefWidth(width);
+        node.prefHeight(height);
+        node.setFitWidth(width);
+        node.setFitHeight(height);
     }
 
     public static void placeNodeInsideCollection(Pane collection, Node node) {

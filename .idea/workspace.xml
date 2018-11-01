@@ -1,96 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="[Master]: BG Image Fix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/CentralisationConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/CountryConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/DemocraticValuesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/GovernmentFormsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/GovernmentsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/HeadOfStateFormsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/IdeologyTypesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/LanguageConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/MonarchyConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/NonElectedPartiesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/OppositionConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/ParliamentConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/ParliamentFormationsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/PartiesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/PoliticalSpectrumConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/PoliticalTopicsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/PoliticiansConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/PopulationIdeologiesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/RegionPopulationsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/RegionsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/ReligionsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/RulershipsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/StateFormsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/StatePhilosophiesConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/TopicResultsConstants.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="[Master]: Data array reference refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/regionSelection/RegionSelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/ColorConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/views/regionselection.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/InitDal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/InitDal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/LoadDataMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/LoadDataMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/CSVCountriesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/CSVCountriesReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCentralisations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCentralisations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionControllerOLD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/CountrySelectionControllerOLD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionElementsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionElementsBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRulerships.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRulerships.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStateForms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStateForms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/LoadDataMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/LoadDataMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCentralisations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCentralisations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRulerships.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRulerships.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStateForms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStateForms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadLanguages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPoliticalTopics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/countries/Belgium.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/countries/Belgium.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/css/newGameStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/css/newGameStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/NodePlacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/NodePlacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/NodePlacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/NodePlacer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,12 +36,15 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand />
     <select />
   </component>
@@ -160,50 +90,58 @@
     <session id="-1877502720">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="css" value="1" />
-          <entry key="csv" value="30" />
-          <entry key="fxml" value="2" />
-          <entry key="java" value="170" />
+          <entry key="Language" value="1" />
+          <entry key="class" value="3" />
+          <entry key="css" value="2" />
+          <entry key="csv" value="37" />
+          <entry key="domain" value="1" />
+          <entry key="fxml" value="4" />
+          <entry key="java" value="207" />
           <entry key="jpg" value="1" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
           <entry key="log" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ANSI Aware" value="1" />
-          <entry key="CLASS" value="2" />
-          <entry key="CSS" value="1" />
-          <entry key="CSV" value="29" />
+          <entry key="CLASS" value="3" />
+          <entry key="CSS" value="2" />
+          <entry key="CSV" value="35" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="170" />
-          <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="207" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2838" />
-          <entry key="txt" value="33" />
+          <entry key="css" value="168" />
+          <entry key="fxml" value="29" />
+          <entry key="java" value="5344" />
+          <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2838" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="CSS" value="169" />
+          <entry key="JAVA" value="5343" />
+          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -217,53 +155,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/PoliticiansConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicians.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -281,21 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>resource</find>
-      <find>getClass().getResource</find>
-      <find>stylesheet</find>
-      <find>get</find>
-      <find>alignment</find>
-      <find>background</find>
-      <find>newGameBg</find>
-      <find>newGameB</find>
-      <find>ViewConstant</find>
-      <find>ViewConstants</find>
-      <find>flags.</find>
-      <find>countryDesc.</find>
-      <find>IdeologyTopics</find>
-      <find>data[2]</find>
-      <find>int</find>
       <find>coutry</find>
       <find>data.length-1</find>
       <find>[9]</find>
@@ -311,11 +188,23 @@
       <find>[3]</find>
       <find>*\([^)]*\)</find>
       <find>[0]</find>
+      <find>stylesh</find>
+      <find>NodePlacer.initLabel</find>
+      <find>Color.rgb(51,51,51)</find>
+      <find>color</find>
+      <find>initImage</find>
+      <find>Image</find>
+      <find>next</find>
+      <find>system</find>
+      <find>select coun</find>
+      <find>48</find>
+      <find>got</find>
+      <find>region</find>
+      <find>fland</find>
+      <find>keypress</find>
+      <find>54</find>
     </findStrings>
     <replaceStrings>
-      <replace>Flag</replace>
-      <replace>1st</replace>
-      <replace>ViewConstants</replace>
       <replace>Constants</replace>
       <replace>this.elementsBuilder.getFlags().</replace>
       <replace>this.elementsBuilder.getCountryDesc().</replace>
@@ -343,6 +232,9 @@
       <replace>[PoliticalSpectrumConstants.populationideology]</replace>
       <replace>[TopicResultsConstants.region]</replace>
       <replace>[NonElectedPartiesConstants.parliamentcollection]</replace>
+      <replace>ColorsConstants.neutralDarkGrey</replace>
+      <replace>54</replace>
+      <replace>48</replace>
     </replaceStrings>
   </component>
   <component name="FindManager">
@@ -356,18 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/IdeologyTopicsConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/IdeologyTypesConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadIdeologyTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/CountryConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/DemocraticValuesConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryDemocraticValues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/HeadOfStateFormsConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryHeadOfStateForms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/StatePhilosophiesConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryStatePhilosophies.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/GovernmentFormsConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernmentForms.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/RulershipsConstants.java" />
@@ -405,8 +285,20 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/TopicResultsConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/dataconstants/NonElectedPartiesConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java" />
         <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/NodePlacer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/ColorConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/views/regionselection.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bl/InitService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dal/InitDal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/regionSelection/RegionSelectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java" />
       </list>
     </option>
   </component>
@@ -496,6 +388,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -521,85 +415,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="dataconstants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="countries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="generaldata" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -615,7 +434,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538250674733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540136150440" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
@@ -631,6 +450,13 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/data/inputData/static/regions.csv" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dal.exceptions" />
+      <recent name="dal.dataWriters" />
+      <recent name="dal.dataReaders.dataCSVGeneralInfoReadingStrategies" />
+      <recent name="dal.dataReaders" />
+      <recent name="bl.domain.exceptions" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tools" />
       <recent name="bl.domain.regions" />
@@ -642,19 +468,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="controllers.testlaunchers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\lib" />
-      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources" />
-      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src" />
-      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\icons\general" />
-      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\java\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Desktop\Bureaublad\NP\NP\NP 1.1.0\src\main\java\views" />
       <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\java\css" />
       <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\icons" />
       <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\backgroundImages" />
       <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\images" />
-      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\data\inputData\static\generaldata" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controllers" />
@@ -662,12 +481,12 @@
       <recent name="dal.dataReaders.dataCSVGeneralInfoReadingStrategies" />
       <recent name="dal.exceptions" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="dal.exceptions" />
-      <recent name="dal.dataWriters" />
-      <recent name="dal.dataReaders.dataCSVGeneralInfoReadingStrategies" />
-      <recent name="dal.dataReaders" />
-      <recent name="bl.domain.exceptions" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\lib" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\resources\gui\icons\general" />
+      <recent name="C:\Users\nicov\Desktop\NP\NP\NP 1.1.0\src\main\java\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -682,7 +501,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoadDataMain">
+  <component name="RunManager" selected="Application.TestLauncher">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -824,10 +643,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLauncher" />
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.LoadDataMain" />
         <item itemvalue="JUnit.All in NP 1.1.0" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.TestLauncher" />
         <item itemvalue="Application.FontTestLauncher" />
       </list>
     </recent_temporary>
@@ -901,7 +720,9 @@
       <workItem from="1536418901166" duration="5000" />
       <workItem from="1538219038356" duration="1587000" />
       <workItem from="1538235640667" duration="2102000" />
-      <workItem from="1538237809222" duration="8532000" />
+      <workItem from="1538237809222" duration="8844000" />
+      <workItem from="1540126808603" duration="9183000" />
+      <workItem from="1540744479919" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="[Master]: Base Game">
       <created>1538220191983</created>
@@ -917,7 +738,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538220606601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Master]: Data array reference refactoring">
+      <created>1538250721698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538250721698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -953,7 +781,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208689000" />
+    <option name="totallyTimeSpent" value="218888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -966,9 +794,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23373677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -977,7 +804,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5360983" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35023043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39170507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1008,41 +835,44 @@
       <window_info anchor="right" id="Maven Projects" order="12" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17019667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" />
+      <window_info id="Favorites" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34313726" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39215687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5360983" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39170507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3267974" />
-      <window_info anchor="bottom" id="Event Log" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32565284" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Profiler" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33333334" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" weight="0.32718894" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.21966206" />
       <window_info anchor="bottom" id="Statistic" order="15" />
       <window_info anchor="bottom" id="JProfiler" order="16" />
-      <window_info anchor="right" id="Mongo Explorer" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="JetGradle" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
+      <window_info anchor="right" id="JSON Viewer" order="0" />
+      <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.3827534" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="11" weight="0.24962178" />
+      <window_info anchor="right" id="Maven Projects" order="12" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1082,22 +912,17 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="[Master]: Base Game" />
     <MESSAGE value="[Master]: BG Image Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Master]: BG Image Fix" />
+    <MESSAGE value="[Master]: Data array reference refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Master]: Data array reference refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java</url>
-          <line>22</line>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="112" />
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1107,304 +932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/CountryDataLanguageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/regions.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/RegionsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryFederalParliaments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliaments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/parliaments.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/ParliamentConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParliamentalFormations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="98" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/parliamentaryformations.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/ParliamentFormationsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="193" lean-forward="true" selection-start-line="20" selection-start-column="193" selection-end-line="20" selection-end-column="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/populations.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/RegionPopulationsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionReligions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/religions.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/ReligionsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryOppositions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/oppositions.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="74" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/GovernmentsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryGovernments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/governments.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/OppositionConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryParties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/MonarchyConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryMonarchies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="40" column="369" lean-forward="true" selection-start-line="40" selection-start-column="369" selection-end-line="40" selection-end-column="369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionRegionalParliamentaryFormations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="91" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/parties.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="58" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/PartiesConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoalTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPartyGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSkills.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticianPoliticalSkills.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/populationideologies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPopulationIdeologies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/PopulationIdeologiesConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyPoliticalSpectrum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="44" column="125" selection-start-line="44" selection-start-column="125" selection-end-line="44" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/politicalspectrums.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadRegionPoliticalSpectrum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="166" selection-start-line="19" selection-start-column="166" selection-end-line="19" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/PoliticalSpectrumConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadPartyTopicResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="62" column="91" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/topicresults.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1433,17 +960,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/dataconstants/PoliticiansConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryNonElectedPartiesCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" column="113" selection-start-line="20" selection-start-column="113" selection-end-line="20" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1454,17 +995,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVCountriesReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoCentralizations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryPoliticians.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoHeadOfStateForsm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoRulerships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoStatePhilosiphies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoReligions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoLanguages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPoliticalSkills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPopulationIdeologies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPopulationIdeologiesTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVGeneralInfoReadingStrategies/ReadGeneralInfoPoliticalTopics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/LoadDataMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/DALTransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/headofstateforms.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/politicalskills.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/populationideologies.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/populationideologiestypes.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/rulerships.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/inputData/static/generaldata/statephilosophies.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/dataReaders/CSVGeneralInfoReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/OverallKeyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/CountrySelectionControllerOLD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="105" column="85" selection-start-line="105" selection-start-column="85" selection-end-line="105" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/css/newGameStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/scene/image/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="145" column="11" selection-start-line="145" selection-start-column="11" selection-end-line="145" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionController.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuElementsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/NodePlacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/com/sun/glass/ui/Cursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/scene/Cursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/scene/control/TextArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ColorConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="75" lean-forward="true" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/gameData/static/countries/Belgium.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret column="83487" selection-start-column="83482" selection-end-column="83487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dal/InitDal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bl/InitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/views/regionselection.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="314" selection-start-line="5" selection-start-column="314" selection-end-line="5" selection-end-column="314" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/regionSelection/RegionSelectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="245" column="97" selection-start-line="245" selection-start-column="97" selection-end-line="245" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bl.domain">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bl.domain</OriginalElement>
+          <nodes>
+            <node x="0.0" y="300.0">bl.domain.Gender</node>
+            <node x="186.0" y="75.0">bl.domain.DurationInWeeks</node>
+            <node x="131.0" y="300.0">bl.domain.Game</node>
+            <node x="0.0" y="150.0">bl.domain.exceptions</node>
+            <node x="0.0" y="0.0">bl.domain.politicalParties</node>
+            <node x="173.0" y="225.0">bl.domain.regions</node>
+            <node x="180.0" y="150.0">bl.domain.ideologies</node>
+            <node x="0.0" y="225.0">bl.domain.countries</node>
+            <node x="0.0" y="75.0">bl.domain.parliaments</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8771428571428571" x="-144.0" y="264.0" />
+          <SelectedNodes>
+            <node>bl.domain.Gender</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bl.domain.regions.Language">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bl.domain.regions.Language</OriginalElement>
+          <nodes>
+            <node x="" y="">bl.domain.politicalParties.PoliticalParty</node>
+            <node x="" y="">bl.domain.parliaments.Ministry</node>
+            <node x="" y="">bl.domain.politicalParties.PartyGoal</node>
+            <node x="" y="">bl.domain.parliaments.Government</node>
+            <node x="" y="">bl.domain.countries.Country</node>
+            <node x="" y="">bl.domain.regions.Language</node>
+            <node x="" y="">bl.domain.politicalParties.PoliticalSkill</node>
+            <node x="" y="">bl.domain.ideologies.TopicResult</node>
+            <node x="" y="">bl.domain.countries.DemocraticValue</node>
+            <node x="" y="">bl.domain.countries.NoMonarch</node>
+            <node x="" y="">bl.domain.Game</node>
+            <node x="" y="">bl.domain.countries.StateForm</node>
+            <node x="" y="">bl.domain.parliaments.FormationInterface</node>
+            <node x="" y="">bl.domain.politicalParties.PartyGoalType</node>
+            <node x="" y="">bl.domain.countries.StatePhilosophy</node>
+            <node x="" y="">bl.domain.countries.Monarch</node>
+            <node x="" y="">bl.domain.ideologies.PoliticalTopic</node>
+            <node x="" y="">bl.domain.ideologies.PopulationIdeology</node>
+            <node x="" y="">bl.domain.Gender</node>
+            <node x="" y="">bl.domain.politicalParties.Politician</node>
+            <node x="" y="">bl.domain.parliaments.Parliament</node>
+            <node x="" y="">bl.domain.countries.Rulership</node>
+            <node x="" y="">bl.domain.regions.Region</node>
+            <node x="" y="">bl.domain.countries.GovernmentForm</node>
+            <node x="" y="">bl.domain.countries.MonarchType</node>
+            <node x="" y="">bl.domain.countries.HeadOfStateForm</node>
+            <node x="" y="">bl.domain.regions.Religion</node>
+            <node x="" y="">bl.domain.DurationInWeeks</node>
+            <node x="" y="">bl.domain.countries.Centralisation</node>
+            <node x="" y="">bl.domain.regions.Population</node>
+            <node x="" y="">bl.domain.parliaments.ParliamentTypes</node>
+            <node x="" y="">bl.domain.ideologies.PoliticalSpectrum</node>
+            <node x="" y="">bl.domain.parliaments.ParliamentaryFormation</node>
+            <node x="" y="">bl.domain.parliaments.Opposition</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="842.0" y="279.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

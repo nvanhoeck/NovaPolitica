@@ -4,6 +4,7 @@ import bl.domain.countries.Country;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Pos;
+import javafx.scene.Cursor;
 import javafx.scene.Node;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.ComboBox;
@@ -20,10 +21,7 @@ import javafx.scene.paint.Stop;
 import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.TextAlignment;
-import tools.Coordinate;
-import tools.NodePlacer;
-import tools.ShapeDrawer;
-import tools.Constants;
+import tools.*;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -45,6 +43,9 @@ public class CountrySelectionElementsBuilder {
     //Details
     private Label countryName;
     private Label countryDesc;
+
+    private Label continueBtn;
+    private ImageView continueIcon;
     
     private Pane view;
 
@@ -59,7 +60,7 @@ public class CountrySelectionElementsBuilder {
         NodePlacer.initLabel(countryName, "", "Bell MT", FontWeight.BOLD, Color.rgb(51,51,51), 36, FontPosture.REGULAR);
         NodePlacer.initLabel(countryDesc, "", "Lucida Sans", FontWeight.MEDIUM, Color.rgb(51,51,51), 18, FontPosture.REGULAR);
         NodePlacer.placeLabelRelativeToScreen(view, countryName, 0.33, 0.675, 0.66, 0.25, 50,100);
-        NodePlacer.placeLabelRelativeToScreen(view, countryDesc, 0.15, 0.75, 0.7, 0.225, 150, 250);
+        NodePlacer.placeLabelRelativeToScreen(view, countryDesc, 0.05, 0.75, 0.9, 0.225, 150, 250);
         countryName.setVisible(false);
         countryName.setAlignment(Pos.TOP_LEFT);
         countryName.setTextAlignment(TextAlignment.CENTER);
@@ -214,7 +215,7 @@ public class CountrySelectionElementsBuilder {
         // TODO globaal maken en ophalen uit DAL
         ObservableList<String> continents = FXCollections.observableArrayList("EUROPE");
         dropDownBox = new ComboBox<>(continents);
-        NodePlacer.placeControlRelativeToScreen(view, dropDownBox, 0.05, 0.1, 0, 0, 35, 175);
+        NodePlacer.placeControlRelativeToScreen(view, dropDownBox, 0.05, 0.15, 0, 0, 35, 175);
         dropDownBox.getSelectionModel().select(0);
         view.getStylesheets().clear();
         dropDownBox.getStyleClass().removeAll();
@@ -225,13 +226,51 @@ public class CountrySelectionElementsBuilder {
 
     void setupScreenTitle() {
         screenTitle = new Label();
-        NodePlacer.initLabel(screenTitle, "Select Country", "Bell MT", FontWeight.MEDIUM, Color.rgb(51, 51, 51), 48, FontPosture.REGULAR);
+        NodePlacer.initLabel(screenTitle, "Select Country", "Bell MT", FontWeight.MEDIUM, ColorConstants.neutralDarkGrey, 48, FontPosture.REGULAR);
         screenTitle.setAlignment(Pos.TOP_LEFT);
-        NodePlacer.placeLabelRelativeToScreen(view, screenTitle, ((this.view.getWidth()/2) - ((double)(this.screenTitle.getText().length()*48)/5)) / this.view.getWidth(), 0.025, 0.33, 0.15, 66, 200);
+        NodePlacer.placeLabelRelativeToScreen(view, screenTitle, 0.05, 0.05, 0.33, 0.15, 66, 200);
     }
 
     void setupBgImage() {
         view.setBackground(new Background(new BackgroundImage(new Image("file:" + Constants.RESOURCESPATH + "\\gui\\backgroundImages\\newGameBg.jpg"), BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT)));
+    }
+
+    void setupContinueButton() {
+        this.continueBtn = new Label();
+        this.continueIcon = new ImageView(new Image("file:" + Constants.RESOURCESPATH + "\\gui\\icons\\general\\nextInactive.png"));
+
+        NodePlacer.initLabel(this.continueBtn, "Continue", "Lucida Sans", FontWeight.BOLD, ColorConstants.neutralDarkGreyBlankedOut, 48, FontPosture.REGULAR);
+        NodePlacer.placeLabelRelativeToScreen(this.view, this.continueBtn, 0.725, 0.075, 0.30, 0.1, 50, 100);
+
+        NodePlacer.initImagePixels(this.view, this.continueIcon, 48, 48, 48, 48);
+        NodePlacer.placeNodeNextToObjectPct(this.view, this.continueBtn, this.continueIcon, 0.175, 0.015, 100, 100, 50,50, false);
+        this.continueBtn.setVisible(false);
+
+        handleContinueHovering();
+    }
+
+    private void handleContinueHovering() {
+        this.continueIcon.setVisible(false);
+        this.continueBtn.setOnMouseEntered(event -> {
+            this.continueBtn.setTextFill(ColorConstants.primaryBlue);
+            this.toggleActive(true);
+            this.view.getScene().getRoot().setCursor(Cursor.HAND);
+        });
+        this.continueBtn.setOnMouseExited(event -> {
+            this.continueBtn.setTextFill(ColorConstants.neutralDarkGreyBlankedOut);
+            this.toggleActive(false);
+            this.view.getScene().getRoot().setCursor(Cursor.DEFAULT);
+        });
+    }
+
+    private void toggleActive(boolean active) {
+        StringBuilder icon = new StringBuilder("file:" + Constants.RESOURCESPATH + "\\gui\\icons\\general\\next");
+        if (active) {
+            icon.append("Active.png");
+        } else {
+            icon.append("Inactive.png");
+        }
+        this.continueIcon.setImage(new Image(icon.toString()));
     }
 
     public ComboBox<String> getDropDownBox() {
@@ -270,6 +309,10 @@ public class CountrySelectionElementsBuilder {
         return centerDiamonds1stFlag;
     }
 
+    public Label getContinueBtn() {
+        return continueBtn;
+    }
+
     public HashMap<Node, String> getFlags() {
         return flags;
     }
@@ -284,5 +327,9 @@ public class CountrySelectionElementsBuilder {
 
     public Pane getView() {
         return view;
+    }
+
+    public ImageView getContinueIcon() {
+        return this.continueIcon;
     }
 }

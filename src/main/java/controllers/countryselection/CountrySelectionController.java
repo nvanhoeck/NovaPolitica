@@ -3,15 +3,22 @@ package controllers.countryselection;
 import bl.InitService;
 import bl.domain.countries.Country;
 import controllers.animationHandlers.CountrySelectionAnimationHandler;
+import controllers.regionSelection.RegionSelectionController;
 import javafx.animation.ParallelTransition;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 import tools.Coordinate;
 import tools.OverallKeyController;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -56,6 +63,7 @@ public class CountrySelectionController {
         elementsBuilder.setupContinentIcon();
         elementsBuilder.setupCountryFlags(this.countries);
         elementsBuilder.setupDetails();
+        elementsBuilder.setupContinueButton();
         addEventHandlers();
     }
 
@@ -78,6 +86,94 @@ public class CountrySelectionController {
 
     private void addEventHandlers() {
         //TODO deze gaat wrschnlijk niet meer kloppen wanneer er meerdere landen bij komen kijken
+        handleHoveringFlags();
+
+        for (Map.Entry<Node, String> flagEntry : this.elementsBuilder.getFlags().entrySet()) {
+            Node flag = flagEntry.getKey();
+            flag.setOnMouseClicked(event -> {
+                if (isEnlarged && !selectedFlagName.equals(flagEntry.getValue())) {
+                    switchSelectedFlag();
+                }else if (!isEnlarged) {
+                    showDetails(flagEntry);
+                }
+            });
+        }
+
+        this.elementsBuilder.getContinueBtn().setOnMouseClicked(event -> {
+            try {
+                goToRegionSelection();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+    }
+
+    private void goToRegionSelection() throws IOException {
+        // TODO pass on country name and load regions into system
+        Stage primaryStage = (Stage) this.view.getScene().getWindow();
+        Scene oldScene = this.view.getScene();
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../../views/regionselection.fxml"));
+        Parent root = fxmlLoader.load();
+        RegionSelectionController controller = fxmlLoader.getController();
+
+        Scene scene  = new Scene(root,oldScene.getWidth(),oldScene.getHeight());
+        primaryStage.setScene(scene);
+        primaryStage.setFullScreen(true);
+        primaryStage.setFullScreenExitHint("");
+        primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
+        primaryStage.show();
+
+        controller.initialise();
+        scene.getRoot().requestFocus();
+
+        controller.passCountry(this.countries.get(this.selectedFlagName));
+    }
+
+    /**
+     * Verplaatst alle vlaggen naar omhoog zodat de details te voorschijn komen
+     * @param flagEntry
+     */
+    private void showDetails(Map.Entry<Node, String> flagEntry) {
+        ParallelTransition showDetails = animationHandler.displayDetails(this.elementsBuilder.getFlags().keySet());
+        showDetails.play();
+        showDetails.setOnFinished(event1 -> {
+            isEnlarged = true;
+            int flagCounter = 0;
+            for (Node flag1 : selectedFlag) {
+                flag1.setLayoutX(originalCoordinates.get(flagCounter).getX());
+                flag1.setLayoutY(originalCoordinates.get(flagCounter++).getY());
+            }
+            selectedFlag = new LinkedList<>();
+            for (Map.Entry<Node, String> entry : this.elementsBuilder.getFlags().entrySet()) {
+                if (Objects.equals(flagEntry.getValue(), entry.getValue())) {
+                    selectedFlag.add(entry.getKey());
+                }
+            }
+            selectedFlagName = flagEntry.getValue();
+            showElements();
+            showSelectionAnimation();
+        });
+    }
+
+    private void showElements() {
+        this.elementsBuilder.getCountryName().setText(countries.get(selectedFlagName).getName().toUpperCase());
+        this.elementsBuilder.getCountryName().setVisible(true);
+        this.elementsBuilder.getCountryName().setLayoutX((view.getWidth()/2)-((this.elementsBuilder.getCountryName().getText().length()*this.elementsBuilder.getCountryName().getFont().getSize()))/3);
+        this.elementsBuilder.getCountryDesc().setText(countries.get(selectedFlagName).getDesc());
+        this.elementsBuilder.getCountryDesc().setVisible(true);
+        this.elementsBuilder.getContinueBtn().setVisible(true);
+        this.elementsBuilder.getContinueIcon().setVisible(true);
+    }
+
+    private void switchSelectedFlag() {
+        showSelected.stop();
+        ParallelTransition reset = animationHandler.resetShowSelected();
+        reset.play();
+        //Todo checken of er nog iets moet gebeuren
+    }
+
+    private void handleHoveringFlags() {
         this.elementsBuilder.getFlags().keySet().forEach(flag -> {
             flag.setOnMouseEntered(event -> {
                 if(selectedFlag.contains(flag)) {
@@ -90,44 +186,6 @@ public class CountrySelectionController {
                 }
             });
         });
-
-        for (Map.Entry<Node, String> flagEntry : this.elementsBuilder.getFlags().entrySet()) {
-            Node flag = flagEntry.getKey();
-            flag.setOnMouseClicked(event -> {
-                if (isEnlarged && !selectedFlagName.equals(flagEntry.getValue())) {
-                    showSelected.stop();
-                    ParallelTransition reset = animationHandler.resetShowSelected();
-                    reset.play();
-                    //Todo checken of er nog iets moet gebeuren
-                }else if (!isEnlarged) {
-                    //Verplaatst alle vlaggen naar omhoog zodat de details te voorschijn komen
-                    ParallelTransition showDetails = animationHandler.displayDetails(this.elementsBuilder.getFlags().keySet());
-                    showDetails.play();
-                    showDetails.setOnFinished(event1 -> {
-                        isEnlarged = true;
-                        int flagCounter = 0;
-                        for (Node flag1 : selectedFlag) {
-                            flag1.setLayoutX(originalCoordinates.get(flagCounter).getX());
-                            flag1.setLayoutY(originalCoordinates.get(flagCounter++).getY());
-                        }
-                        selectedFlag = new LinkedList<>();
-                        for (Map.Entry<Node, String> entry : this.elementsBuilder.getFlags().entrySet()) {
-                            if (Objects.equals(flagEntry.getValue(), entry.getValue())) {
-                                selectedFlag.add(entry.getKey());
-                            }
-                        }
-                        selectedFlagName = flagEntry.getValue();
-                        this.elementsBuilder.getCountryName().setText(countries.get(selectedFlagName).getName().toUpperCase());
-                        this.elementsBuilder.getCountryName().setVisible(true);
-                        this.elementsBuilder.getCountryName().setLayoutX((view.getWidth()/2)-((this.elementsBuilder.getCountryName().getText().length()*this.elementsBuilder.getCountryName().getFont().getSize()))/3);
-                        this.elementsBuilder.getCountryDesc().setText(countries.get(selectedFlagName).getDesc());
-                        this.elementsBuilder.getCountryDesc().setVisible(true);
-                        showSelectionAnimation();
-                    });
-
-                }
-            });
-        }
     }
 
     /**
