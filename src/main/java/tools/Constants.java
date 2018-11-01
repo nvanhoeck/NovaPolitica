@@ -10,6 +10,7 @@ public class Constants {
     public static String COUNTRYDATAPATH = System.getProperty("user.dir") + "/src/main/resources/data/gameData/static/countries/";
     public static String GENERALDATAPATH = System.getProperty("user.dir") + "\\src\\main\\resources\\data\\inputData\\static\\generaldata\\";
     public static String COUNTRYINPUTDATAPATH = System.getProperty("user.dir") + "\\src\\main\\resources\\data\\inputData\\static\\countries\\";
+    public static String VERSION = "1.0.0";
 
     static {
         try {

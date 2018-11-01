@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
+import tools.Constants;
 
 import java.awt.*;
 
@@ -20,7 +21,7 @@ public class TestLauncher extends Application{
     }
     @Override
     public void start(Stage primaryStage) throws Exception {
-        String version = "1.0.0";
+        String version = Constants.VERSION;
         String author = "Niko Van Hoeck";
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         double screenwidth= screenSize.getWidth();

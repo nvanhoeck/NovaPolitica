@@ -5,6 +5,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
+import tools.Constants;
 import tools.ViewConstants;
 
 import java.awt.*;
@@ -18,7 +19,7 @@ public class Launcher extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        version = "1.0.0";
+        version = Constants.VERSION;
         author = "Niko Van Hoeck";
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         ViewConstants.screenwidth = screenSize.getWidth();
