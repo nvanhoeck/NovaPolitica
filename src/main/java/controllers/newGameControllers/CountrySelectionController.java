@@ -1,9 +1,9 @@
-package controllers.countryselection;
+package controllers.newGameControllers;
 
 import bl.InitService;
 import bl.domain.countries.Country;
+import controllers.Controllers;
 import controllers.animationHandlers.CountrySelectionAnimationHandler;
-import controllers.regionSelection.RegionSelectionController;
 import javafx.animation.ParallelTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -25,7 +25,7 @@ import java.util.*;
  * Hierin gaat de speler zijn land kiezen om een politieke partij op te richten.
  * Hij kan hiervoor filteren op verschillende continenten.
  */
-public class CountrySelectionController {
+public class CountrySelectionController implements Controllers {
 
     //DATA
     private InitService initService;
@@ -53,6 +53,7 @@ public class CountrySelectionController {
      */
     @SuppressWarnings("JavaDoc")
     @FXML
+    @Override
     public void initialise() throws FileNotFoundException {
         initService = new InitService();
         loadingGameData();
@@ -67,7 +68,11 @@ public class CountrySelectionController {
         addEventHandlers();
     }
 
-    
+    @Override
+    public void loadData(Object singleData) {
+
+    }
+
 
     private void loadingGameData() throws FileNotFoundException {
         this.countries = (HashMap<String, Country>) initService.initCountries();
@@ -124,10 +129,10 @@ public class CountrySelectionController {
         primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
         primaryStage.show();
 
+        controller.loadData(this.countries.get(this.selectedFlagName));
         controller.initialise();
         scene.getRoot().requestFocus();
 
-        controller.passCountry(this.countries.get(this.selectedFlagName));
     }
 
     /**

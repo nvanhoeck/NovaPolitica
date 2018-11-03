@@ -8,6 +8,7 @@ public class Region {
     //TODO private final Image flag;
     //TODO private final Image map;
     private Population population;
+    private final String desc;
     private final String acronym;
     private long GDP;
     private long surface;
@@ -16,15 +17,17 @@ public class Region {
     private Language secundaryLanguage;
     private Parliament regionalParliament;
 
-    public Region(int id, String name, String acronym) {
+    public Region(int id, String name, String desc, String acronym) {
         this.id = id;
         this.name = name;
+        this.desc = desc;
         this.acronym = acronym;
     }
 
-    public Region(int id, String name, String acronym, long GDP, long surface, String capital, Language primaryLanguage, Language secundaryLanguage) {
+    public Region(int id, String name, String desc, String acronym, long GDP, long surface, String capital, Language primaryLanguage, Language secundaryLanguage) {
         this.id = id;
         this.name = name;
+        this.desc = desc;
         this.acronym = acronym;
         this.GDP = GDP;
         this.surface = surface;
@@ -33,10 +36,11 @@ public class Region {
         this.secundaryLanguage = secundaryLanguage;
     }
 
-    public Region(int id, String name, Population population, String acronym, long GDP, long surface, String capital, Language primaryLanguage, Language secundaryLanguage, Parliament regionalParliament) {
+    public Region(int id, String name, Population population, String desc, String acronym, long GDP, long surface, String capital, Language primaryLanguage, Language secundaryLanguage, Parliament regionalParliament) {
         this.id = id;
         this.name = name;
         this.population = population;
+        this.desc = desc;
         this.acronym = acronym;
         this.GDP = GDP;
         this.surface = surface;
@@ -114,6 +118,10 @@ public class Region {
         this.regionalParliament = regionalParliament;
     }
 
+    public String getDesc() {
+        return this.desc;
+    }
+
     @Override
     public String toString() {
         return "Region{" +
@@ -129,4 +137,5 @@ public class Region {
                 ", regionalParliament=" + regionalParliament +
                 '}';
     }
+
 }

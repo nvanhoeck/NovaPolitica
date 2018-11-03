@@ -19,7 +19,7 @@ public class ReadCountryRegions implements ReadCountryDataInterface {
     public HashMap<String, Country> readCSV(HashMap<String, Country> countries, String[] data) throws ReadCountryException {
         if(countries.containsKey(data[RegionsConstants.country])) {
             Country c = countries.get(data[RegionsConstants.country]);
-            c.getRegions().put(data[RegionsConstants.acronym], new Region(Integer.parseInt(data[RegionsConstants.id]), data[RegionsConstants.name], data[RegionsConstants.acronym], Long.parseLong(data[RegionsConstants.gdp]), Integer.parseInt(data[RegionsConstants.surface]), data[RegionsConstants.capital], listener.updateLanguage(Integer.parseInt(data[RegionsConstants.primaryLanguageid])), listener.updateLanguage(Integer.parseInt(data[RegionsConstants.secundaryLanguageid]))));
+            c.getRegions().put(data[RegionsConstants.acronym], new Region(Integer.parseInt(data[RegionsConstants.id]), data[RegionsConstants.name], data[RegionsConstants.desc], data[RegionsConstants.acronym], Long.parseLong(data[RegionsConstants.gdp]), Integer.parseInt(data[RegionsConstants.surface]), data[RegionsConstants.capital], listener.updateLanguage(Integer.parseInt(data[RegionsConstants.primaryLanguageid])), listener.updateLanguage(Integer.parseInt(data[RegionsConstants.secundaryLanguageid]))));
         }else {
             throw new ReadCountryException("Country "+ data[RegionsConstants.country]+" could not be found for Regions!");
         }

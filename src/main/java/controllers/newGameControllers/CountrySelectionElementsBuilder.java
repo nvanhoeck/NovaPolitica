@@ -1,4 +1,4 @@
-package controllers.countryselection;
+package controllers.newGameControllers;
 
 import bl.domain.countries.Country;
 import javafx.collections.FXCollections;

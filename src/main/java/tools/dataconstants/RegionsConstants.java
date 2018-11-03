@@ -11,6 +11,5 @@ public class RegionsConstants {
      public static int primaryLanguageid = 7;
      public static int secundaryLanguageid = 8;
      public static int country= 9;
-
-
+    public static int desc = 10;
 }
