@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="[Master]: Data array reference refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/Controllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/animationHandlers/RegionSelectionAnimationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/RegionSelectionElementsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/constants/DetailsScreens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetailsGeneralInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/Flag.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="[Master]: Workspace Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/regions/Region.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/bl/domain/regions/Region.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenu/MainMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/MainMenu/MainMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/TestLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/TestLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/countryselection/CountrySelectionElementsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/controllers/regionSelection/RegionSelectionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/countries/Belgium.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/gameData/static/countries/Belgium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/regions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/data/inputData/static/countries/regions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/gui/resources - Snelkoppeling.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/dataconstants/RegionsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/tools/dataconstants/RegionsConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/views/countryselection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/views/countryselection.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NP 1.1.0/views/regionselection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NP 1.1.0/views/regionselection.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bl/domain/regions/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bl/domain/regions/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/CountrySelectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/countryselection/CountrySelectionElementsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/CountrySelectionElementsBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/regionSelection/RegionSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/RegionSelectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dal/dataReaders/dataCSVCountriesReadingStrategies/ReadCountryRegions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/dataconstants/RegionsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/dataconstants/RegionsConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/views/countryselection.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/views/regionselection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/views/regionselection.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/gameData/static/countries/Belgium.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/gameData/static/countries/Belgium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/regions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/regions.csv" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,7 +97,7 @@
           <entry key="csv" value="41" />
           <entry key="domain" value="1" />
           <entry key="fxml" value="4" />
-          <entry key="java" value="295" />
+          <entry key="java" value="298" />
           <entry key="jpg" value="1" />
           <entry key="json" value="4" />
           <entry key="log" value="3" />
@@ -148,7 +113,7 @@
           <entry key="CSS" value="2" />
           <entry key="CSV" value="39" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="295" />
+          <entry key="JAVA" value="298" />
           <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="2" />
@@ -160,16 +125,16 @@
           <entry key="css" value="168" />
           <entry key="csv" value="29" />
           <entry key="fxml" value="29" />
-          <entry key="java" value="16445" />
-          <entry key="txt" value="67" />
+          <entry key="java" value="16466" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="169" />
           <entry key="CSV" value="29" />
-          <entry key="JAVA" value="16444" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="JAVA" value="16465" />
+          <entry key="PLAIN_TEXT" value="87" />
           <entry key="XML" value="29" />
         </counts>
       </usages-collector>
@@ -180,6 +145,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
+          <entry key="git.branch.checkout.local" value="2" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
@@ -189,43 +155,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/newGameControllers/RegionSelectionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
-              <folding>
-                <element signature="e#1029#1034#0" />
-                <element signature="class#2520:2876" />
-                <element signature="method#handle#0;class#2520:2876" />
-                <element signature="class#2920:3238" />
-                <element signature="method#handle#0;class#2920:3238" />
-                <element signature="method#handleFlags#0;class#RegionSelectionController#0" />
-                <element signature="class#2020:2212" />
-                <element signature="class#2256:2451" />
-                <element signature="class#2496:2663" />
-                <element signature="e#5879#5880#0" expanded="true" />
-                <element signature="e#5938#5939#0" expanded="true" />
-                <element signature="docComment;method#keyPressed#0;class#RegionSelectionController#0" />
-                <element signature="e#4668#4696#0" />
-                <element signature="e#6145#6146#0" expanded="true" />
-                <element signature="e#6202#6203#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetailsGeneralInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -243,7 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Image</find>
       <find>next</find>
       <find>select coun</find>
       <find>48</find>
@@ -273,6 +202,7 @@
       <find>handlers</find>
       <find>syst</find>
       <find>clickTab</find>
+      <find>sys</find>
     </findStrings>
     <replaceStrings>
       <replace>this.elementsBuilder.getCountryDesc().</replace>
@@ -372,8 +302,8 @@
         <option value="$PROJECT_DIR$/src/main/java/bl/domain/regions/Region.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/inputData/static/countries/regions.csv" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetailsGeneralInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/RegionSelectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetailsGeneralInfo.java" />
       </list>
     </option>
   </component>
@@ -390,7 +320,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -470,105 +401,6 @@
               <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="animationHandlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="newGameControllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="newGameControllers" type="462c0819:PsiDirectoryNode" />
-              <item name="regionSelectionDetailsScreens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NP 1.1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NP 1.1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inputData" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="countries" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -590,14 +422,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541260118548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541263024724" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
-    <property name="last_opened_file_path" value="F:/Backup/IP2/Poject-Kandoe/poject-kandoe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/NP/Code/nova-politica" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -799,11 +631,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLauncher" />
-        <item itemvalue="Application.LoadDataMain" />
-        <item itemvalue="Application.Launcher" />
         <item itemvalue="JUnit.All in NP 1.1.0" />
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.LoadDataMain" />
         <item itemvalue="Application.FontTestLauncher" />
+        <item itemvalue="Application.TestLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -882,7 +714,7 @@
       <workItem from="1541084802233" duration="7236000" />
       <workItem from="1541147731662" duration="1073000" />
       <workItem from="1541160821108" duration="10511000" />
-      <workItem from="1541244137314" duration="13289000" />
+      <workItem from="1541244137314" duration="15939000" />
     </task>
     <task id="LOCAL-00001" summary="[Master]: Base Game">
       <created>1538220191983</created>
@@ -905,7 +737,28 @@
       <option name="project" value="LOCAL" />
       <updated>1538250721698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Master]: Workspace Changes">
+      <created>1541261387354</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541261387354</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Master]: Workspace Changes">
+      <created>1541261420683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541261420683</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Master]: Workspace Changes">
+      <created>1541261431477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541261431477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -941,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250997000" />
+    <option name="totallyTimeSpent" value="253647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,9 +807,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25945538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.12102874" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -965,7 +817,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3548387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3548387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39170507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -977,7 +829,7 @@
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32872504" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.33333334" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.21966206" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.5560676" />
       <window_info anchor="bottom" id="Statistic" order="15" />
       <window_info anchor="bottom" id="JProfiler" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
@@ -990,8 +842,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="Mongo Explorer" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="11" weight="0.24962178" />
       <window_info anchor="right" id="Maven Projects" order="12" weight="0.32980332" />
     </layout>
@@ -1034,7 +886,8 @@
     <MESSAGE value="[Master]: Base Game" />
     <MESSAGE value="[Master]: BG Image Fix" />
     <MESSAGE value="[Master]: Data array reference refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Master]: Data array reference refactoring" />
+    <MESSAGE value="[Master]: Workspace Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Master]: Workspace Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1202,13 +1055,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/NewGameControllers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/mainmenu/MainMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1259,13 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1339,16 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,34 +1304,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetailsGeneralInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/newGameControllers/RegionSelectionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+        <state relative-caret-position="46">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
           <folding>
             <element signature="e#1029#1034#0" />
+            <element signature="method#initialise#0;class#RegionSelectionController#0" />
+            <element signature="method#addEventHandlers#0;class#RegionSelectionController#0" />
+            <element signature="method#addTabHandling#0;class#RegionSelectionController#0" />
             <element signature="class#2520:2876" />
             <element signature="method#handle#0;class#2520:2876" />
             <element signature="class#2920:3238" />
             <element signature="method#handle#0;class#2920:3238" />
+            <element signature="class#3283:3604" />
+            <element signature="method#handle#0;class#3251:3486" />
             <element signature="method#handleFlags#0;class#RegionSelectionController#0" />
             <element signature="class#2020:2212" />
             <element signature="class#2256:2451" />
             <element signature="class#2496:2663" />
-            <element signature="e#5879#5880#0" expanded="true" />
-            <element signature="e#5938#5939#0" expanded="true" />
+            <element signature="method#selectRegion#0;class#RegionSelectionController#0" />
+            <element signature="method#showDetails#0;class#RegionSelectionController#0" />
+            <element signature="method#showGeneralInfo#0;class#RegionSelectionController#0" />
             <element signature="docComment;method#keyPressed#0;class#RegionSelectionController#0" />
             <element signature="e#4668#4696#0" />
-            <element signature="e#6145#6146#0" expanded="true" />
-            <element signature="e#6202#6203#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/newGameControllers/regionSelectionDetailsScreens/RegionDetailsGeneralInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="144" column="144" selection-start-line="144" selection-start-column="144" selection-end-line="144" selection-end-column="144" />
+          <folding>
+            <element signature="method#RegionDetailsGeneralInfo#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#setupElements#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#placeBaseElements#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#placeTabs#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#placeGeneralInfo#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#placeGeneralInfoData#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#placeFlag#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#placeTitle#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#getTabs#0;class#RegionDetailsGeneralInfo#0" />
+            <element signature="method#clickTab#0;class#RegionDetailsGeneralInfo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TestLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1584,7 +1450,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.google.code.gson:gson:2.8.2</last-edited>
+          <last-edited>com.btmatthews.selenium.junit4:selenium-junit4-runner:1.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
