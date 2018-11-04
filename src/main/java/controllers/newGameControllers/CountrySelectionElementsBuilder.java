@@ -1,4 +1,4 @@
-package controllers.countryselection;
+package controllers.newGameControllers;
 
 import bl.domain.countries.Country;
 import javafx.collections.FXCollections;
@@ -220,7 +220,7 @@ public class CountrySelectionElementsBuilder {
         view.getStylesheets().clear();
         dropDownBox.getStyleClass().removeAll();
         System.out.println("../css/newGame.Styles.css");
-        dropDownBox.getStylesheets().add("/gui/css/newGameStyles.css");
+        dropDownBox.getStylesheets().add("/gui/css/countryScreen.css");
         dropDownBox.getStyleClass().addAll("combo-box");
     }
 

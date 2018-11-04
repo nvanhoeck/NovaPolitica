@@ -1,7 +1,8 @@
 package controllers.mainmenu;
 
 
-import controllers.countryselection.CountrySelectionController;
+import controllers.Controllers;
+import controllers.newGameControllers.CountrySelectionController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -16,13 +17,15 @@ import javafx.stage.Stage;
 import tools.OverallKeyController;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 
 /**
  * Dit is het eerste scherm dat men te zien krijgt wanneer men het spel start.
  * Men kan hier een nieuw spel starten, een oud spel laden, de settings veranderen en afsluiten.
  */
-public class MainMenuController{
+public class MainMenuController implements Controllers {
 
     @FXML
     Pane view;
@@ -42,6 +45,11 @@ public class MainMenuController{
         elementsBuilder = new MainMenuElementsBuilder(this.view, this.bigLogo);
         setup();
         System.out.println("Init complete");
+    }
+
+    @Override
+    public void loadData(Object singleData) {
+
     }
 
     private void setup() {

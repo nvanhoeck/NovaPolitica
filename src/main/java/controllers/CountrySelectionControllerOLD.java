@@ -6,8 +6,6 @@ import controllers.animationHandlers.CountrySelectionAnimationHandler;
 import javafx.animation.ParallelTransition;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
@@ -19,7 +17,6 @@ import javafx.scene.effect.Reflection;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.CycleMethod;
@@ -262,7 +259,7 @@ public class CountrySelectionControllerOLD {
         view.getStylesheets().clear();
         dropDownBox.getStyleClass().removeAll();
         System.out.println("../css/newGame.Styles.css");
-        dropDownBox.getStylesheets().add("/gui/css/newGameStyles.css");
+        dropDownBox.getStylesheets().add("/gui/css/countryScreen.css");
         dropDownBox.getStyleClass().addAll("combo-box");
     }
 
