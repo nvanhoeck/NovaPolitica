@@ -13,7 +13,7 @@
     -fx-font-family: "Lucida Sans";
     -fx-font-weight: bold;
     -fx-font-size: 14px;
-    -fx-padding: 0px 0px 0px 50px;
+    -fx-padding: 0px 0px 0px 15px;
 }
 
 .combo-box-base > .arrow-button > .arrow{

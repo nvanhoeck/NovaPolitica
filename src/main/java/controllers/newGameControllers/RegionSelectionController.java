@@ -49,6 +49,8 @@ public class RegionSelectionController implements Controllers {
         elementsBuilder.setupRegionFlags(selectedCountry.getRegions());
         elementsBuilder.setupSplitLine();
         elementsBuilder.setupDiamonds();
+        elementsBuilder.setupDetailsBox();
+        elementsBuilder.setupContinueButton();
         Region firstRegion = (Region) this.selectedCountry.getRegions().values().toArray()[0];
         this.selectRegion(firstRegion.getAcronym(), this.selectedCountry.getRegions());
         addEventHandlers();
@@ -58,6 +60,20 @@ public class RegionSelectionController implements Controllers {
         for (Region region : this.selectedCountry.getRegions().values()) {
             this.handleFlags(this.elementsBuilder.getFlag(region.getAcronym()).getFlag(), region.getAcronym());
         }
+
+        this.elementsBuilder.getContinueBtn().setOnMouseClicked(new EventHandler <MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                // TODO Next Screen
+            }
+        });
+
+        this.elementsBuilder.getContinueIcon().setOnMouseClicked(new EventHandler <MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                // TODO Next Screen
+            }
+        });
     }
 
     private void addTabHandling(){
@@ -143,6 +159,8 @@ public class RegionSelectionController implements Controllers {
             this.regionDetailsScreen.clickTab(this.currentTab);
         }
         this.addTabHandling();
+        this.elementsBuilder.getContinueBtn().toFront();
+        this.elementsBuilder.getContinueIcon().toFront();
     }
 
     private void showGeneralInfo() {
